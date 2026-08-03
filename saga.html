@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title id="pageTitleTag">Saga | Dragon Ball</title>
+
+    <meta name="description" id="pageDescriptionTag" content="Scopri la storia completa di una saga di Dragon Ball, dal manga originale a Dragon Ball Daima.">
+    <meta name="theme-color" content="#ff6b00">
+
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="it_IT">
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23ff8c1a'/%3E%3Ccircle cx='32' cy='32' r='30' fill='none'/%3E%3Cg fill='%23e21b12'%3E%3Cpath d='M32 16l2.6 8h8.4l-6.8 5 2.6 8-6.8-5-6.8 5 2.6-8-6.8-5h8.4z'/%3E%3C/g%3E%3C/svg%3E">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="data.js"></script>
+    <script defer src="saga.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Orbitron:wght@500;700;900&family=Rubik:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ================= SCENOGRAFIA UNICA PER SAGA ================= -->
+
+    <div class="saga-scene-bg" id="sagaSceneBg" aria-hidden="true">
+
+        <div class="sb-sky"></div>
+
+        <div class="sb-glow"></div>
+
+        <div class="sb-inner">
+
+            <span class="sb-shape sb-shape-1"></span>
+
+            <span class="sb-shape sb-shape-2"></span>
+
+            <span class="sb-shape sb-shape-3"></span>
+
+            <span class="sb-shape sb-shape-4"></span>
+
+            <span class="sb-particle p1"></span>
+
+            <span class="sb-particle p2"></span>
+
+            <span class="sb-particle p3"></span>
+
+            <span class="sb-particle p4"></span>
+
+            <span class="sb-particle p5"></span>
+
+            <span class="sb-particle p6"></span>
+
+            <span class="sb-particle p7"></span>
+
+            <span class="sb-particle p8"></span>
+
+            <div class="sb-ground"></div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <a class="skip-link" href="#main-content">Vai al contenuto principale</a>
+
+    <nav aria-label="Navigazione principale">
+
+        <a class="logo" href="dragonball.html#home">
+
+            🐲 Dragon Ball
+
+        </a>
+
+        <ul>
+
+            <li><a href="dragonball.html#home">Home</a></li>
+
+            <li><a href="dragonball.html#saghe">Saghe</a></li>
+
+            <li><a href="dragonball.html#personaggi">Personaggi</a></li>
+
+            <li><a href="dragonball.html#curiosita">Curiosità</a></li>
+
+            <li><a href="dragonball.html#scouter">Scouter</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main id="main-content">
+
+        <div id="sagaNotFound" class="saga-not-found hidden">
+
+            <h1>Saga non trovata</h1>
+
+            <p>Il libricino che cerchi non esiste (o il link è incompleto).</p>
+
+            <a href="dragonball.html#saghe" class="cta-btn">📚 Torna alla Biblioteca delle Saghe</a>
+
+        </div>
+
+        <article id="sagaArticle" class="saga-article hidden">
+
+            <!-- ================= HERO SAGA ================= -->
+
+            <header class="saga-hero" id="sagaHero">
+
+                <a href="dragonball.html#saghe" class="saga-back">← Torna alla Biblioteca</a>
+
+                <div class="saga-hero-icon" id="sagaHeroIcon"></div>
+
+                <span class="saga-hero-era" id="sagaEra"></span>
+
+                <h1 id="sagaTitle"></h1>
+
+                <p class="saga-hero-subtitle" id="sagaSubtitle"></p>
+
+                <div class="saga-hero-stats" id="sagaStats"></div>
+
+                <div class="saga-hero-characters" id="sagaCharacters"></div>
+
+            </header>
+
+            <!-- ================= NARRAZIONE ================= -->
+
+            <div class="saga-body" id="sagaBody"></div>
+
+            <!-- ================= NAVIGAZIONE TRA SAGHE ================= -->
+
+            <div class="saga-pager" id="sagaPager" role="navigation" aria-label="Naviga tra le saghe"></div>
+
+        </article>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+
+            Dragon Ball è un'opera di Akira Toriyama © Bird Studio / Shueisha, Toei Animation. Questo è un sito fan-made non ufficiale, realizzato a scopo didattico.
+
+        </p>
+
+        <p>
+
+            I contenuti narrativi sono riassunti e commenti originali sulla trama ufficiale, scritti a scopo informativo e non riproducono testi o immagini protette da copyright.
+
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

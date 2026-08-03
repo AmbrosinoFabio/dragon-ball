@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dragon Ball | Saghe &amp; Scouter</title>
+
+    <meta name="description" content="Sito fan-made non ufficiale su Dragon Ball: la biblioteca completa delle saghe (dal 1986 a Dragon Ball Daima, con episodi ufficiali e filler) e uno Scouter interattivo per calcolare il power level dei tuoi guerrieri preferiti.">
+    <meta name="theme-color" content="#ff6b00">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dragon Ball | Biblioteca delle Saghe &amp; Scouter">
+    <meta property="og:description" content="Esplora la storia completa di Dragon Ball saga per saga e rileva il power level dei guerrieri Z con lo Scouter interattivo. Fan site non ufficiale.">
+    <meta property="og:locale" content="it_IT">
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23ff8c1a'/%3E%3Ccircle cx='32' cy='32' r='30' fill='none'/%3E%3Cg fill='%23e21b12'%3E%3Cpath d='M32 16l2.6 8h8.4l-6.8 5 2.6 8-6.8-5-6.8 5 2.6-8-6.8-5h8.4z'/%3E%3C/g%3E%3C/svg%3E">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script defer src="data.js"></script>
+    <script defer src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One&family=Orbitron:wght@500;700;900&family=Rubik:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ================= SCENOGRAFIA DI SFONDO ================= -->
+
+    <div class="scene-bg" aria-hidden="true">
+
+        <div class="ki-sky"></div>
+
+        <div class="ki-aura"></div>
+
+        <div class="ki-ring r1"></div>
+
+        <div class="ki-ring r2"></div>
+
+        <div class="ki-ring r3"></div>
+
+        <div class="star s1"></div>
+
+        <div class="star s2"></div>
+
+        <div class="star s3"></div>
+
+        <div class="star s4"></div>
+
+        <div class="star s5"></div>
+
+        <div class="star s6"></div>
+
+        <div class="spark sp1"></div>
+
+        <div class="spark sp2"></div>
+
+        <div class="spark sp3"></div>
+
+        <div class="spark sp4"></div>
+
+        <div class="spark sp5"></div>
+
+        <div class="spark sp6"></div>
+
+        <div class="ki-particle p1"></div>
+
+        <div class="ki-particle p2"></div>
+
+        <div class="ki-particle p3"></div>
+
+        <div class="ki-particle p4"></div>
+
+        <div class="ki-particle p5"></div>
+
+        <div class="ki-particle p6"></div>
+
+        <div class="ki-particle p7"></div>
+
+        <div class="ki-particle p8"></div>
+
+        <div class="energy-crack c1"></div>
+
+        <div class="energy-crack c2"></div>
+
+        <div class="energy-crack c3"></div>
+
+        <div class="dragon-ball db1">
+
+            <div class="db-stars">
+
+                <span class="db-star pos-5"></span>
+
+            </div>
+
+        </div>
+
+        <div class="dragon-ball db2">
+
+            <div class="db-stars">
+
+                <span class="db-star pos-1"></span>
+
+                <span class="db-star pos-9"></span>
+
+            </div>
+
+        </div>
+
+        <div class="dragon-ball db3">
+
+            <div class="db-stars">
+
+                <span class="db-star pos-1"></span>
+
+                <span class="db-star pos-5"></span>
+
+                <span class="db-star pos-9"></span>
+
+            </div>
+
+        </div>
+
+        <div class="dragon-ball db4">
+
+            <div class="db-stars">
+
+                <span class="db-star pos-1"></span>
+
+                <span class="db-star pos-3"></span>
+
+                <span class="db-star pos-7"></span>
+
+                <span class="db-star pos-9"></span>
+
+            </div>
+
+        </div>
+
+        <div class="dragon-ball db5">
+
+            <div class="db-stars">
+
+                <span class="db-star pos-1"></span>
+
+                <span class="db-star pos-3"></span>
+
+                <span class="db-star pos-5"></span>
+
+                <span class="db-star pos-7"></span>
+
+                <span class="db-star pos-9"></span>
+
+            </div>
+
+        </div>
+
+        <div class="dragon-ball db6">
+
+            <div class="db-stars">
+
+                <span class="db-star pos-1"></span>
+
+                <span class="db-star pos-3"></span>
+
+                <span class="db-star pos-4"></span>
+
+                <span class="db-star pos-6"></span>
+
+                <span class="db-star pos-7"></span>
+
+                <span class="db-star pos-9"></span>
+
+            </div>
+
+        </div>
+
+        <div class="dragon-ball db7">
+
+            <div class="db-stars">
+
+                <span class="db-star pos-1"></span>
+
+                <span class="db-star pos-3"></span>
+
+                <span class="db-star pos-4"></span>
+
+                <span class="db-star pos-5"></span>
+
+                <span class="db-star pos-6"></span>
+
+                <span class="db-star pos-7"></span>
+
+                <span class="db-star pos-9"></span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <a class="skip-link" href="#main-content">Vai al contenuto principale</a>
+
+    <nav aria-label="Navigazione principale">
+
+        <div class="logo">
+
+            🐲 Dragon Ball
+
+        </div>
+
+        <ul>
+
+            <li><a href="#home">Home</a></li>
+
+            <li><a href="#saghe">Saghe</a></li>
+
+            <li><a href="#personaggi">Personaggi</a></li>
+
+            <li><a href="#curiosita">Curiosità</a></li>
+
+            <li><a href="#scouter">Scouter</a></li>
+
+        </ul>
+
+    </nav>
+
+    <main id="main-content">
+
+    <!-- ================= HERO ================= -->
+
+    <header id="home">
+
+        <div class="overlay">
+
+            <h1>
+
+                Il Potere del Ki
+
+            </h1>
+
+            <p>
+
+                Esplora le saghe di Dragon Ball e rileva il power level dei tuoi guerrieri preferiti.
+
+            </p>
+
+            <a href="#scouter" class="cta-btn">
+
+                📡 Attiva lo Scouter
+
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- ================= BIBLIOTECA DELLE SAGHE ================= -->
+
+    <section id="saghe">
+
+        <h2>La Biblioteca delle Saghe</h2>
+
+        <p class="section-sub">Apri un libricino e rivivi la storia completa di ogni saga, dal 1986 a oggi — con episodi ufficiali e filler</p>
+
+        <div class="era-filter" id="eraFilter"></div>
+
+        <div class="book-shelf" id="bookShelf"></div>
+
+    </section>
+
+    <!-- ================= GALLERIA PERSONAGGI ================= -->
+
+    <section id="personaggi">
+
+        <h2>Personaggi</h2>
+
+        <p class="section-sub">Il cast di guerrieri, alleati, nemici e fusioni pronti per lo Scouter</p>
+
+        <div class="character-grid" id="characterGrid"></div>
+
+    </section>
+
+    <!-- ================= CURIOSITÀ ================= -->
+
+    <section id="curiosita">
+
+        <h2>Curiosità</h2>
+
+        <p class="section-sub">Piccoli fatti veri sulla nascita e la produzione di Dragon Ball — sfoglia le pagine</p>
+
+        <div class="trivia-book" id="triviaBook">
+
+            <button type="button" class="trivia-nav trivia-prev" id="triviaPrev" aria-label="Pagina precedente">‹</button>
+
+            <div class="trivia-book-frame">
+
+                <div class="trivia-pages" id="triviaPages" tabindex="0" aria-live="polite"></div>
+
+            </div>
+
+            <button type="button" class="trivia-nav trivia-next" id="triviaNext" aria-label="Pagina successiva">›</button>
+
+        </div>
+
+        <div class="trivia-book-footer">
+
+            <div class="trivia-dots" id="triviaDots"></div>
+
+            <span class="trivia-counter" id="triviaCounter"></span>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SCOUTER ================= -->
+
+    <section id="scouter">
+
+        <h2>Scouter</h2>
+
+        <p class="section-sub">Seleziona un guerriero e una forma per rilevarne il power level</p>
+
+        <div class="scouter-panel">
+
+            <div class="scouter-selectors">
+
+                <h4>1. Scegli il guerriero</h4>
+
+                <div class="char-select" id="charSelect"></div>
+
+                <h4>2. Scegli la forma</h4>
+
+                <div class="form-select" id="formSelect">
+
+                    <p class="form-placeholder">Seleziona prima un guerriero</p>
+
+                </div>
+
+                <button id="scanButton" disabled>
+
+                    🔍 Rileva Power Level
+
+                </button>
+
+            </div>
+
+            <div class="scouter-display">
+
+                <div class="scouter-screen" id="scouterScreen">
+
+                    <p class="scouter-label">POWER LEVEL</p>
+
+                    <p class="scouter-value" id="scouterValue">— — —</p>
+
+                    <p class="scouter-warning hidden" id="scouterWarning">
+
+                        ⚠️ È OLTRE 9000!! ⚠️
+
+                    </p>
+
+                    <div class="scouter-cracks" aria-hidden="true">
+
+                        <span class="crack" style="--rot:6deg"></span>
+
+                        <span class="crack" style="--rot:52deg"></span>
+
+                        <span class="crack" style="--rot:-38deg"></span>
+
+                        <span class="crack" style="--rot:-92deg"></span>
+
+                        <span class="crack" style="--rot:122deg"></span>
+
+                        <span class="crack" style="--rot:168deg"></span>
+
+                        <span class="shard" style="--dx:-70px; --dy:-50px; --rot:-140deg"></span>
+
+                        <span class="shard" style="--dx:65px; --dy:-58px; --rot:120deg"></span>
+
+                        <span class="shard" style="--dx:-55px; --dy:60px; --rot:-80deg"></span>
+
+                        <span class="shard" style="--dx:72px; --dy:42px; --rot:100deg"></span>
+
+                        <span class="shard" style="--dx:4px; --dy:-82px; --rot:60deg"></span>
+
+                        <span class="shard" style="--dx:18px; --dy:78px; --rot:-160deg"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONFRONTA GUERRIERI (scena finale con Shenron) ================= -->
+
+    <section class="compare-section">
+
+        <div class="compare-scene-bg" aria-hidden="true">
+
+            <div class="sky"></div>
+
+            <div class="sky-glow"></div>
+
+            <div class="haze haze1"></div>
+
+            <div class="haze haze2"></div>
+
+            <div class="star s1"></div>
+
+            <div class="star s2"></div>
+
+            <div class="star s3"></div>
+
+            <div class="star s4"></div>
+
+            <div class="star s5"></div>
+
+            <div class="star s6"></div>
+
+            <svg class="shenron" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+
+                <defs>
+
+                    <linearGradient id="compareBodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+
+                        <stop offset="0%" stop-color="#1c5c3c"/>
+
+                        <stop offset="50%" stop-color="#2e9e63"/>
+
+                        <stop offset="100%" stop-color="#1c5c3c"/>
+
+                    </linearGradient>
+
+                    <linearGradient id="compareFinGrad" x1="0" y1="1" x2="0" y2="0">
+
+                        <stop offset="0%" stop-color="#2e9e63"/>
+
+                        <stop offset="45%" stop-color="#e8c25a"/>
+
+                        <stop offset="100%" stop-color="#ffd54a"/>
+
+                    </linearGradient>
+
+                </defs>
+
+                <path class="shenron-spine" style="stroke:url(#compareBodyGrad)" d="M40,250 C90,200 130,150 190,175 C250,200 260,270 320,240 C380,210 390,150 450,165 C510,180 520,245 580,220 C630,200 640,150 690,145 C715,142 735,135 755,128" />
+
+                <path class="shenron-highlight" d="M40,250 C90,200 130,150 190,175 C250,200 260,270 320,240 C380,210 390,150 450,165 C510,180 520,245 580,220 C630,200 640,150 690,145 C715,142 735,135 755,128" />
+
+                <polygon class="fin" points="184.7,162.4 213.6,136.3 211.8,175.2"/>
+
+                <polygon class="fin" points="443.2,153.3 468.2,123.4 471.9,162.2"/>
+
+                <polygon class="fin" points="638.0,159.8 629.0,121.9 662.3,142.2"/>
+
+                <g class="shenron-head">
+
+                    <ellipse cx="790" cy="118" rx="44" ry="35"/>
+
+                    <path class="shenron-snout" d="M822,108 Q865,92 883,110 Q866,126 826,127 Z"/>
+
+                    <polygon class="fin" points="769.6,94.0 775.1,58.4 793.1,89.6"/>
+
+                    <polygon class="fin" points="794.8,89.6 818.0,62.1 817.3,98.1"/>
+
+                    <circle class="shenron-eye" cx="798" cy="106" r="5.5"/>
+
+                    <circle class="shenron-nostril" cx="858" cy="106" r="2.5"/>
+
+                </g>
+
+            </svg>
+
+            <div class="debris d1"></div>
+
+            <div class="debris d2"></div>
+
+            <div class="debris d3"></div>
+
+            <div class="debris d4"></div>
+
+            <div class="spark sp1"></div>
+
+            <div class="spark sp2"></div>
+
+            <div class="spark sp3"></div>
+
+            <div class="spark sp4"></div>
+
+            <div class="spark sp5"></div>
+
+            <div class="spark sp6"></div>
+
+            <div class="mountains back"></div>
+
+            <div class="mountains mid"></div>
+
+            <div class="mountains front"></div>
+
+            <div class="energy-crack c1"></div>
+
+            <div class="energy-crack c2"></div>
+
+            <div class="energy-crack c3"></div>
+
+        </div>
+
+        <div class="compare-panel">
+
+            <h3>⚔️ Confronta Guerrieri</h3>
+
+            <p class="section-sub compare-sub">Scegli due combattenti e due forme per scoprire chi vincerebbe</p>
+
+            <div class="compare-grid">
+
+                <div class="compare-side">
+
+                    <div class="compare-avatar" id="compareAvatarA"></div>
+
+                    <span class="compare-label">Guerriero A</span>
+
+                    <select id="compareCharA" aria-label="Scegli il primo guerriero"></select>
+
+                    <select id="compareFormA" aria-label="Scegli la forma del primo guerriero"></select>
+
+                </div>
+
+                <div class="compare-vs">VS</div>
+
+                <div class="compare-side">
+
+                    <div class="compare-avatar" id="compareAvatarB"></div>
+
+                    <span class="compare-label">Guerriero B</span>
+
+                    <select id="compareCharB" aria-label="Scegli il secondo guerriero"></select>
+
+                    <select id="compareFormB" aria-label="Scegli la forma del secondo guerriero"></select>
+
+                </div>
+
+            </div>
+
+            <button id="compareButton" type="button">⚡ Confronta</button>
+
+            <div class="compare-result" id="compareResult" aria-live="polite">
+
+                <div class="compare-bars">
+
+                    <div class="compare-bar-row" id="compareRowA">
+
+                        <div class="compare-bar-header">
+
+                            <span class="compare-bar-icon" id="compareIconA"></span>
+
+                            <span class="compare-bar-name" id="compareNameA"></span>
+
+                        </div>
+
+                        <div class="compare-bar-track"><div class="compare-bar-fill fill-a" id="compareFillA"></div></div>
+
+                        <span class="compare-bar-value" id="compareValueA"></span>
+
+                    </div>
+
+                    <div class="compare-bar-row" id="compareRowB">
+
+                        <div class="compare-bar-header">
+
+                            <span class="compare-bar-icon" id="compareIconB"></span>
+
+                            <span class="compare-bar-name" id="compareNameB"></span>
+
+                        </div>
+
+                        <div class="compare-bar-track"><div class="compare-bar-fill fill-b" id="compareFillB"></div></div>
+
+                        <span class="compare-bar-value" id="compareValueB"></span>
+
+                    </div>
+
+                </div>
+
+                <p class="compare-message" id="compareMessage"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-inner">
+
+            <div class="footer-top">
+
+                <div class="footer-brand-block">
+
+                    <a class="footer-brand" href="#home">🐲 Dragon Ball</a>
+
+                    <p class="footer-tagline">Biblioteca delle saghe, personaggi e Scouter interattivo — un progetto fan-made, non ufficiale.</p>
+
+                </div>
+
+                <nav class="footer-nav" aria-label="Link rapidi">
+
+                    <a href="#home">Home</a>
+
+                    <a href="#saghe">Saghe</a>
+
+                    <a href="#personaggi">Personaggi</a>
+
+                    <a href="#curiosita">Curiosità</a>
+
+                    <a href="#scouter">Scouter</a>
+
+                </nav>
+
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+
+                <div class="footer-legal">
+
+                    <p>
+
+                        Dragon Ball è un'opera di Akira Toriyama © Bird Studio / Shueisha, Toei Animation. Questo è un sito fan-made non ufficiale, realizzato a scopo didattico.
+
+                    </p>
+
+                    <p>
+
+                        I power level mostrati dallo Scouter sono reinterpretati in chiave ludica e non rappresentano dati canonici ufficiali. Le ambientazioni del sito (sfondi, Shenron, le scenografie delle saghe) sono illustrazioni originali ispirate all'atmosfera della serie, non riproduzioni di scene ufficiali.
+
+                    </p>
+
+                </div>
+
+                <a class="footer-top-link" href="#home">↑ Torna in cima</a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ================= EFFETTO SCHERMO IN FRANTUMI (INTERO SITO) ================= -->
+
+    <div class="fullscreen-crack" id="fullscreenCrack" aria-hidden="true">
+
+        <div class="fs-flash"></div>
+
+        <div class="fs-tint"></div>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:4deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:34deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:-28deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:-64deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:98deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:142deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:-118deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:172deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:19deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:-49deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:113deg"></span>
+
+        <span class="fs-crack fs-crack-lg" style="--rot:-157deg"></span>
+
+        <span class="fs-crack fs-crack-sm" style="--rot:60deg; top:38%; left:42%;"></span>
+
+        <span class="fs-crack fs-crack-sm" style="--rot:-100deg; top:60%; left:58%;"></span>
+
+        <span class="fs-crack fs-crack-sm" style="--rot:150deg; top:44%; left:60%;"></span>
+
+        <span class="fs-crack fs-crack-sm" style="--rot:-20deg; top:58%; left:40%;"></span>
+
+        <span class="fs-shard" style="--dx:-340px; --dy:-240px; --rot:-140deg"></span>
+
+        <span class="fs-shard" style="--dx:320px; --dy:-260px; --rot:120deg"></span>
+
+        <span class="fs-shard" style="--dx:-300px; --dy:280px; --rot:-80deg"></span>
+
+        <span class="fs-shard" style="--dx:360px; --dy:230px; --rot:100deg"></span>
+
+        <span class="fs-shard" style="--dx:20px; --dy:-400px; --rot:60deg"></span>
+
+        <span class="fs-shard" style="--dx:90px; --dy:390px; --rot:-160deg"></span>
+
+        <span class="fs-shard" style="--dx:-400px; --dy:30px; --rot:40deg"></span>
+
+        <span class="fs-shard" style="--dx:410px; --dy:-20px; --rot:-40deg"></span>
+
+        <span class="fs-shard fs-shard-lg" style="--dx:-180px; --dy:-320px; --rot:-100deg"></span>
+
+        <span class="fs-shard fs-shard-lg" style="--dx:200px; --dy:310px; --rot:80deg"></span>
+
+        <span class="fs-shard fs-shard-lg" style="--dx:-260px; --dy:130px; --rot:-60deg"></span>
+
+        <span class="fs-shard fs-shard-lg" style="--dx:270px; --dy:-140px; --rot:60deg"></span>
+
+        <span class="fs-shard fs-shard-sm" style="--dx:-140px; --dy:60px; --rot:20deg"></span>
+
+        <span class="fs-shard fs-shard-sm" style="--dx:150px; --dy:-70px; --rot:-30deg"></span>
+
+        <span class="fs-shard fs-shard-sm" style="--dx:-60px; --dy:-150px; --rot:150deg"></span>
+
+        <span class="fs-shard fs-shard-sm" style="--dx:70px; --dy:160px; --rot:-150deg"></span>
+
+    </div>
+
+</body>
+
+</html>
