@@ -3469,10 +3469,6 @@ PAGINA DEDICATA ALLA SAGA (saga.html)
 
     margin-bottom:18px;
 
-    padding-left:16px;
-
-    border-left:4px solid var(--saga-color, var(--orange));
-
 }
 
 .saga-section p{
