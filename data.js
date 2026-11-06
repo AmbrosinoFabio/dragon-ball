@@ -1,10 +1,10 @@
 /*=========================================================
     DRAGON BALL
-    data.js — dati condivisi tra dragonball.html e saga.html
+    data.js — data shared by dragonball.html and saga.html
 =========================================================*/
 
 /*==========================
-DATI PERSONAGGI (Scouter)
+CHARACTER DATA (Scouter)
 ==========================*/
 
 const charactersData={
@@ -18,7 +18,7 @@ const charactersData={
         {name:"Super Saiyan 3", power:6000000000},
         {name:"Super Saiyan Blue", power:10000000000},
         {name:"Super Saiyan 4", power:50000000000},
-        {name:"Ultra Istinto", power:"illimitato"}
+        {name:"Ultra Instinct", power:"unlimited"}
     ]
 },
 "Vegeta":{
@@ -29,48 +29,48 @@ const charactersData={
         {name:"Super Saiyan 2", power:250000000},
         {name:"Super Saiyan Blue", power:9500000000},
         {name:"Super Saiyan 4", power:45000000000},
-        {name:"Ultra Ego", power:"illimitato"}
+        {name:"Ultra Ego", power:"unlimited"}
     ]
 },
 "Piccolo":{
     icon:"🟢",
     forms:[
         {name:"Base", power:3500},
-        {name:"Fusione con Nail", power:3500000},
-        {name:"Potenziale Sbloccato", power:100000000}
+        {name:"Fused with Nail", power:3500000},
+        {name:"Unlocked Potential", power:100000000}
     ]
 },
 "Gohan":{
     icon:"📚",
     forms:[
-        {name:"Bambino", power:1307},
+        {name:"Child", power:1307},
         {name:"Super Saiyan 2", power:300000000},
-        {name:"Potenziale Nascosto", power:500000000},
-        {name:"Gohan Bestia", power:80000000000}
+        {name:"Hidden Potential", power:500000000},
+        {name:"Gohan Beast", power:80000000000}
     ]
 },
-"Freezer":{
+"Frieza":{
     icon:"❄️",
     forms:[
-        {name:"Prima Forma", power:530000},
-        {name:"Forma Finale", power:12000000},
+        {name:"First Form", power:530000},
+        {name:"Final Form", power:12000000},
         {name:"100%", power:120000000},
-        {name:"Golden Freezer", power:100000000000}
+        {name:"Golden Frieza", power:100000000000}
     ]
 },
 "Cell":{
     icon:"🧬",
     forms:[
-        {name:"Imperfetto", power:1000000},
-        {name:"Semi-Perfetto", power:90000000},
-        {name:"Perfetto", power:900000000},
-        {name:"Super Perfetto", power:2000000000}
+        {name:"Imperfect", power:1000000},
+        {name:"Semi-Perfect", power:90000000},
+        {name:"Perfect", power:900000000},
+        {name:"Super Perfect", power:2000000000}
     ]
 },
 "Majin Buu":{
     icon:"🍬",
     forms:[
-        {name:"Buu Grasso", power:1000000000},
+        {name:"Fat Buu", power:1000000000},
         {name:"Kid Buu", power:1500000000}
     ]
 },
@@ -85,7 +85,7 @@ const charactersData={
 "Goten":{
     icon:"👦",
     forms:[
-        {name:"Bambino", power:1500},
+        {name:"Child", power:1500},
         {name:"Super Saiyan", power:10000000}
     ]
 },
@@ -122,218 +122,218 @@ const charactersData={
 
 
 /*==========================
-DATI PERSONAGGI (biografie galleria)
+CHARACTER DATA (gallery bios)
 ==========================*/
 
 const characterBios={
     "Goku":{
-        role:"Protagonista · Saiyan",
-        debut:"Saga di Pilaf (Dragon Ball)",
-        bio:"Guerriero Saiyan cresciuto sulla Terra, protagonista assoluto della serie. Dalla ricerca delle Sfere del Drago fino alle sfide contro gli dèi, il suo unico vero obiettivo è superare sé stesso combattimento dopo combattimento."
+        role:"Protagonist · Saiyan",
+        debut:"Pilaf Saga (Dragon Ball)",
+        bio:"A Saiyan warrior raised on Earth and the undisputed protagonist of the series. From the search for the Dragon Balls to his battles against the gods, his one true goal is to surpass himself, fight after fight."
     },
     "Vegeta":{
-        role:"Rivale · Principe dei Saiyan",
-        debut:"Saga Saiyan (Dragon Ball Z)",
-        bio:"Principe dei Saiyan, orgoglioso e inizialmente spietato, diventa nel tempo uno dei pilastri della difesa della Terra pur senza mai smettere di rincorrere Goku. Una delle evoluzioni di personaggio più amate della serie."
+        role:"Rival · Prince of the Saiyans",
+        debut:"Saiyan Saga (Dragon Ball Z)",
+        bio:"The proud and initially ruthless Prince of the Saiyans gradually becomes one of Earth's greatest defenders, without ever giving up his chase of Goku. His is one of the most beloved character arcs in the series."
     },
     "Piccolo":{
-        role:"Alleato · Namecciano",
-        debut:"Il Demone Piccolo (Dragon Ball)",
-        bio:"Ultimo discendente del Demone Piccolo, sceglie di allearsi con i suoi ex nemici per proteggere la Terra e diventa mentore e figura paterna per Gohan."
+        role:"Ally · Namekian",
+        debut:"The Demon Piccolo (Dragon Ball)",
+        bio:"The last descendant of the Demon Piccolo, he chooses to join forces with his former enemies to protect Earth and becomes a mentor and father figure to Gohan."
     },
     "Gohan":{
-        role:"Il potenziale nascosto",
-        debut:"Saga Saiyan (Dragon Ball Z)",
-        bio:"Figlio di Goku, dotato di un potenziale capace di superare quello del padre. Diviso tra la vita da studente e il ruolo di guerriero, sblocca la sua vera forza solo nei momenti di massima necessità."
+        role:"The hidden potential",
+        debut:"Saiyan Saga (Dragon Ball Z)",
+        bio:"Goku's son, gifted with a potential that can surpass his father's. Torn between student life and his role as a warrior, he unlocks his true strength only in moments of greatest need."
     },
-    "Freezer":{
-        role:"Antagonista · Imperatore galattico",
-        debut:"Namek in Fiamme (Dragon Ball Z)",
-        bio:"Imperatore galattico dal potere immenso e dalla crudeltà glaciale: distrusse il pianeta natale dei Saiyan per timore della leggenda del Super Saiyan. Il suo scontro con Goku su Namek resta tra i più iconici della serie."
+    "Frieza":{
+        role:"Antagonist · Galactic Emperor",
+        debut:"Namek in Flames (Dragon Ball Z)",
+        bio:"A galactic emperor of immense power and icy cruelty, he destroyed the Saiyans' home planet out of fear of the Super Saiyan legend. His battle with Goku on Namek remains one of the most iconic in the series."
     },
     "Cell":{
-        role:"Antagonista · Essere bioingegnerizzato",
-        debut:"Gli Androidi e la Perfezione di Cell (Dragon Ball Z)",
-        bio:"Creato dal Dr. Gero assorbendo le cellule dei più grandi guerrieri della serie, capace di assorbire altri androidi per raggiungere la propria forma perfetta e organizzare il proprio torneo."
+        role:"Antagonist · Bioengineered being",
+        debut:"The Androids and Cell's Perfection (Dragon Ball Z)",
+        bio:"Created by Dr. Gero from the cells of the series' greatest warriors, he can absorb other androids to reach his perfect form and stage his own tournament."
     },
     "Majin Buu":{
-        role:"Antagonista · Entità magica",
-        debut:"La Furia di Majin Bu (Dragon Ball Z)",
-        bio:"Entità di pura energia sigillata millenni fa, capace di rigenerarsi da qualunque danno e di mutare forma. Dietro l'aspetto quasi infantile si nasconde uno dei nemici più letali mai affrontati dai guerrieri Z."
+        role:"Antagonist · Magical entity",
+        debut:"The Fury of Majin Buu (Dragon Ball Z)",
+        bio:"An entity of pure energy sealed away millennia ago, able to regenerate from any damage and change shape. Behind his almost childlike appearance hides one of the deadliest enemies the Z Fighters have ever faced."
     },
     "Trunks":{
-        role:"Guerriero del futuro",
-        debut:"Gli Androidi e la Perfezione di Cell (Dragon Ball Z)",
-        bio:"Guerriero proveniente da un futuro devastato dagli androidi, torna nel passato per avvertire i guerrieri Z e cambiare il corso della storia."
+        role:"Warrior from the future",
+        debut:"The Androids and Cell's Perfection (Dragon Ball Z)",
+        bio:"A warrior from a future devastated by the androids, he travels back in time to warn the Z Fighters and change the course of history."
     },
     "Goten":{
-        role:"Nuova generazione",
-        debut:"Il Guerriero Saiyaman (Dragon Ball Z)",
-        bio:"Fratello minore di Gohan, mai conosciuto da un Goku spesso lontano da casa. Impara la Fusione insieme a Trunks, dando vita al potentissimo Gotenks."
+        role:"New generation",
+        debut:"The Great Saiyaman (Dragon Ball Z)",
+        bio:"Gohan's younger brother, who never knew Goku, a father often away from home. He learns Fusion with Trunks, giving rise to the incredibly powerful Gotenks."
     },
     "Bra":{
-        role:"Nuova generazione",
+        role:"New generation",
         debut:"Dragon Ball GT",
-        bio:"Figlia di Vegeta e Bulma, cresce lontana dai riflettori delle grandi battaglie ma porta comunque nel sangue l'eredità Saiyan della sua famiglia."
+        bio:"The daughter of Vegeta and Bulma, she grows up far from the spotlight of the great battles but still carries her family's Saiyan heritage in her blood."
     },
     "Gogeta":{
-        role:"Fusione · Danza della Fusione",
-        debut:"Film / Dragon Ball Super",
-        bio:"Fusione tramite Danza della Fusione tra Goku e Vegeta, considerata una delle forme più potenti mai apparse nella serie: devastante ma instabile, dura solo pochi minuti."
+        role:"Fusion · Fusion Dance",
+        debut:"Movie / Dragon Ball Super",
+        bio:"The Fusion Dance fusion of Goku and Vegeta, considered one of the most powerful forms ever seen in the series: devastating but unstable, it lasts only a few minutes."
     },
     "Vegito":{
-        role:"Fusione · Orecchini Potara",
-        debut:"La Furia di Majin Bu (Dragon Ball Z)",
-        bio:"Fusione tramite gli Orecchini Potara tra Goku e Vegeta, dotato di un potere quasi incontrollabile e di un ego tipicamente vegetiano."
+        role:"Fusion · Potara Earrings",
+        debut:"The Fury of Majin Buu (Dragon Ball Z)",
+        bio:"The fusion of Goku and Vegeta through the Potara Earrings, with almost uncontrollable power and an ego that is pure Vegeta."
     },
     "Gotenks":{
-        role:"Fusione · Danza della Fusione",
-        debut:"La Furia di Majin Bu (Dragon Ball Z)",
-        bio:"Fusione tramite Danza della Fusione tra Goten e Trunks: un guerriero adolescente tanto potente quanto capriccioso e facilmente distratto."
+        role:"Fusion · Fusion Dance",
+        debut:"The Fury of Majin Buu (Dragon Ball Z)",
+        bio:"The Fusion Dance fusion of Goten and Trunks: a teenage warrior as powerful as he is capricious and easily distracted."
     }
 };
 
 
 /*==========================
-CURIOSITA' (TRIVIA VERIFICATA)
+TRIVIA (VERIFIED)
 ==========================*/
 
 const triviaData=[
     {
         icon:"🐦",
-        titolo:"Perché si chiama \"Bird Studio\"",
-        testo:"Lo studio di produzione di Akira Toriyama si chiama Bird Studio: un gioco di parole sul suo cognome, dato che \"tori\" in giapponese significa uccello e \"yama\" montagna. Toriyama era da sempre un grande appassionato di uccelli."
+        titolo:"Why it's called \"Bird Studio\"",
+        testo:"Akira Toriyama's production studio is called Bird Studio: a play on his surname, since \"tori\" means bird in Japanese and \"yama\" means mountain. Toriyama was a great bird lover all his life."
     },
     {
         icon:"✏️",
-        titolo:"Doveva essere solo un manga comico",
-        testo:"Toriyama non voleva disegnare un battle manga: la sua idea originale era realizzare semplici storie umoristiche. Fu il suo editor a convincerlo a introdurre combattimenti e un arco narrativo più strutturato, dando forma a ciò che conosciamo oggi."
+        titolo:"It was meant to be just a comedy manga",
+        testo:"Toriyama didn't want to draw a battle manga: his original idea was to create simple humorous stories. It was his editor who convinced him to introduce fights and a more structured story arc, shaping the series we know today."
     },
     {
         icon:"🐒",
-        titolo:"Ispirato al Viaggio in Occidente",
-        testo:"Il nome stesso di Son Goku, così come la Nuvola a Nimbus (Kinto Un), traggono ispirazione dal classico romanzo cinese \"Viaggio in Occidente\" e dal suo protagonista, il Re Scimmia Sun Wukong."
+        titolo:"Inspired by Journey to the West",
+        testo:"The name Son Goku itself, like the Flying Nimbus (Kinto Un), draws inspiration from the classic Chinese novel \"Journey to the West\" and its protagonist, the Monkey King Sun Wukong."
     },
     {
         icon:"💚",
-        titolo:"Il personaggio preferito dall'autore",
-        testo:"In diverse interviste, lo stesso Akira Toriyama ha dichiarato che il suo personaggio preferito da disegnare era Piccolo, apprezzato per il design pulito ed essenziale."
+        titolo:"The author's favorite character",
+        testo:"In several interviews, Akira Toriyama himself said that his favorite character to draw was Piccolo, whom he liked for his clean, essential design."
     },
     {
         icon:"📡",
-        titolo:"\"È oltre 9000!!\" non esiste... quasi",
-        testo:"La celebre battuta che ispira lo Scouter di questo sito nasce da un adattamento: nella versione giapponese originale Vegeta legge un valore di \"8000\", non \"9000\". Il numero cambiò nel doppiaggio inglese e diventò, per un curioso errore, uno dei meme più famosi di internet."
+        titolo:"\"It's over 9000!!\" doesn't exist... almost",
+        testo:"The famous line that inspired this site's Scouter comes from an adaptation: in the original Japanese version Vegeta reads a value of \"8000\", not \"9000\". The number changed in the English dub and, through a curious mistake, became one of the most famous memes on the internet."
     },
     {
         icon:"📺",
-        titolo:"L'autore che non guardava l'anime",
-        testo:"Nonostante abbia supervisionato l'opera per decenni, Toriyama ha più volte ammesso di non seguire regolarmente l'anime, concentrandosi principalmente sulla scrittura e il disegno del manga originale."
+        titolo:"The author who didn't watch the anime",
+        testo:"Although he oversaw the work for decades, Toriyama admitted several times that he didn't regularly follow the anime, focusing mainly on writing and drawing the original manga."
     },
     {
         icon:"📖",
-        titolo:"Undici anni su Weekly Shōnen Jump",
-        testo:"Dragon Ball debuttò come manga sulla rivista Weekly Shōnen Jump nel 1984 e vi rimase fino al 1995, per un totale di 519 capitoli raccolti poi in 42 volumi tankōbon. Per undici anni Toriyama dovette consegnare capitoli settimanali senza sosta, un ritmo di lavoro massacrante comune a quasi tutti i mangaka di successo pubblicati su Jump."
+        titolo:"Eleven years in Weekly Shōnen Jump",
+        testo:"Dragon Ball debuted as a manga in Weekly Shōnen Jump magazine in 1984 and ran until 1995, for a total of 519 chapters later collected in 42 tankōbon volumes. For eleven years Toriyama had to deliver weekly chapters without a break, a grueling pace common to almost all successful mangaka published in Jump."
     },
     {
         icon:"🤖",
-        titolo:"Arale di Dr. Slump fa un cameo in Dragon Ball",
-        testo:"Prima di Dragon Ball, Toriyama aveva già un manga di successo, Dr. Slump, con protagonista la ragazza robot Arale Norimaki. Il legame tra le due opere non è solo stilistico: Arale compare in un breve cameo comico proprio durante la saga dell'Esercito del Nastro Rosso, un piccolo omaggio dell'autore al suo lavoro precedente."
+        titolo:"Arale from Dr. Slump has a cameo in Dragon Ball",
+        testo:"Before Dragon Ball, Toriyama already had a hit manga, Dr. Slump, starring the robot girl Arale Norimaki. The link between the two works isn't only one of style: Arale makes a brief comic cameo during the Red Ribbon Army saga, a small tribute from the author to his earlier work."
     },
     {
         icon:"🥕",
-        titolo:"I Saiyan si chiamano tutti come ortaggi",
-        testo:"I nomi dei guerrieri Saiyan nascondono un gioco di parole vegetale: Vegeta viene da \"vegetable\", Kakarot (il vero nome di Goku) da \"carrot\" (carota), Raditz da \"radish\" (ravanello), Nappa dal cavolo napa e Broly da \"broccoli\". È lo stesso tipo di logica scherzosa che Toriyama userà anche per altre razze aliene della serie."
+        titolo:"The Saiyans are all named after vegetables",
+        testo:"The names of the Saiyan warriors hide a vegetable pun: Vegeta comes from \"vegetable\", Kakarot (Goku's real name) from \"carrot\", Raditz from \"radish\", Nappa from napa cabbage and Broly from \"broccoli\". Toriyama would use the same playful logic for other alien races in the series."
     },
     {
         icon:"❄️",
-        titolo:"La famiglia di Freezer è fatta di elettrodomestici del freddo",
-        testo:"Anche i cattivi più temuti della serie nascondono un gioco di parole: Freezer (\"freezer\", il congelatore), suo fratello Cooler (\"cooler\", il raffreddatore) e il padre Re Cold (\"cold\", freddo) formano una dinastia che prende il nome dalla catena del freddo. Un modo tipico di Toriyama per rendere memorabili anche i nemici più spietati con un tocco di umorismo nascosto."
+        titolo:"Frieza's family is named after cold appliances",
+        testo:"Even the series' most feared villains hide a pun: Frieza (from \"freezer\"), his brother Cooler and his father King Cold form a dynasty named after the cold chain. It's a typical Toriyama way of making even the most ruthless enemies memorable with a touch of hidden humor."
     },
     {
         icon:"🐌",
-        titolo:"Namek significa \"lumaca\"",
-        testo:"Il pianeta Namek e il popolo Namecciano prendono il nome da \"namekuji\", la parola giapponese per lumaca, coerente con il loro aspetto vagamente simile a delle chiocciole. Piccolo, il primo Namecciano incontrato da Goku, porta invece il nome di uno strumento musicale, il flauto piccolo, proprio come diversi altri personaggi della serie richiamano termini musicali."
+        titolo:"Namek means \"slug\"",
+        testo:"The planet Namek and the Namekian people take their name from \"namekuji\", the Japanese word for slug, in keeping with their vaguely snail-like appearance. Piccolo, the first Namekian Goku meets, is instead named after a musical instrument, the piccolo flute, just as several other characters in the series evoke musical terms."
     },
     {
         icon:"🔢",
-        titolo:"Gli Androidi sono numerati, e uno è il loro stesso creatore",
-        testo:"Gli Androidi creati dal Dr. Gero per vendicare il Nastro Rosso sono identificati con un numero invece che con un nome: 16, 17, 18, 19... Colpo di scena della saga, lo stesso Dr. Gero si trasforma in un androide, diventando l'Androide 20, per garantirsi l'immortalità necessaria a portare a termine la sua vendetta contro Goku."
+        titolo:"The Androids are numbered, and one is their own creator",
+        testo:"The Androids created by Dr. Gero to avenge the Red Ribbon Army are identified by a number instead of a name: 16, 17, 18, 19... In a twist of the saga, Dr. Gero himself turns into an android, becoming Android 20, to gain the immortality he needs to complete his revenge against Goku."
     },
     {
         icon:"🎬",
-        titolo:"L'anime debuttò su Fuji TV nel 1986",
-        testo:"La serie animata prodotta da Toei Animation andò in onda per la prima volta in Giappone il 26 febbraio 1986 su Fuji TV, a poco più di un anno dall'esordio del manga. Da lì sarebbe iniziata una produzione quasi ininterrotta che, tra Dragon Ball, Z, GT, Super e Daima, copre quasi quarant'anni di episodi."
+        titolo:"The anime debuted on Fuji TV in 1986",
+        testo:"The animated series produced by Toei Animation first aired in Japan on February 26, 1986 on Fuji TV, just over a year after the manga's debut. It was the start of an almost uninterrupted production that, across Dragon Ball, Z, GT, Super and Daima, spans almost forty years of episodes."
     },
     {
         icon:"💛",
-        titolo:"Perché il Super Saiyan è biondo? Un aneddoto sulla produzione",
-        testo:"Secondo un aneddoto spesso raccontato dallo staff di produzione, i capelli biondi e dritti del Super Saiyan nacquero anche per motivi pratici: erano più semplici e veloci da disegnare e colorare rispetto ai capelli neri con tutte le loro sfumature, un vantaggio non da poco per un anime settimanale con tempi di produzione sempre strettissimi."
+        titolo:"Why is the Super Saiyan blond? A production anecdote",
+        testo:"According to an anecdote often told by the production staff, the Super Saiyan's straight blond hair also came about for practical reasons: it was simpler and faster to draw and color than black hair with all its shading, no small advantage for a weekly anime on an always tight production schedule."
     },
     {
         icon:"👑",
-        titolo:"Vegeta doveva essere un cattivo usa e getta",
-        testo:"Quando fu introdotto nella saga Saiyan, Vegeta non era pensato per diventare un personaggio permanente: come molti villain dei manga shonen, avrebbe dovuto essere sconfitto e sparire dalla storia. Il suo successo tra i lettori fu però talmente grande che Toriyama decise di tenerlo in scena, trasformandolo in uno dei protagonisti più amati e complessi dell'intera serie."
+        titolo:"Vegeta was meant to be a throwaway villain",
+        testo:"When he was introduced in the Saiyan saga, Vegeta wasn't meant to become a permanent character: like many shōnen manga villains, he was supposed to be defeated and disappear from the story. His success with readers was so great, however, that Toriyama decided to keep him around, turning him into one of the most beloved and complex protagonists of the entire series."
     },
     {
         icon:"🌺",
-        titolo:"Il Kamehameha prende il nome da un vero re hawaiano",
-        testo:"La tecnica energetica più iconica di Goku condivide il nome con Kamehameha I, il sovrano che nell'Ottocento unificò per la prima volta le isole Hawaii sotto un unico regno. Toriyama scelse il nome soprattutto per il suono d'impatto della parola, ma il riferimento storico non è casuale ed è spesso citato tra le curiosità sulla serie."
+        titolo:"The Kamehameha is named after a real Hawaiian king",
+        testo:"Goku's most iconic energy technique shares its name with Kamehameha I, the ruler who in the 19th century first unified the Hawaiian Islands under a single kingdom. Toriyama chose the name mainly for the punchy sound of the word, but the historical reference is no coincidence and is often cited among the series' trivia."
     },
     {
         icon:"🎭",
-        titolo:"Dragon Ball GT non fu scritto da Toriyama",
-        testo:"A differenza delle altre serie, Dragon Ball GT (1996-1997) non nacque da una storia di Toriyama: l'autore fornì solo alcuni concept iniziali e i design dei personaggi, mentre sceneggiatura e trama furono sviluppate interamente dallo staff di Toei Animation. È uno dei motivi per cui GT viene spesso considerata una serie a parte rispetto alla continuity più \"autoriale\" del resto del franchise."
+        titolo:"Dragon Ball GT wasn't written by Toriyama",
+        testo:"Unlike the other series, Dragon Ball GT (1996-1997) didn't originate from a Toriyama story: the author provided only some initial concepts and the character designs, while the script and plot were developed entirely by the Toei Animation staff. That's one reason why GT is often considered separate from the more \"authorial\" continuity of the rest of the franchise."
     },
     {
         icon:"🔄",
-        titolo:"Con Super, Toriyama tornò a scrivere in prima persona",
-        testo:"Dopo essersi tenuto a distanza durante Dragon Ball GT, Toriyama riprese un ruolo attivo con Dragon Ball Super (2015), scrivendo personalmente la storia originale dei film Battle of Gods e Resurrection 'F' da cui la serie prende le mosse, e supervisionando molto più da vicino la sceneggiatura degli episodi successivi."
+        titolo:"With Super, Toriyama went back to writing himself",
+        testo:"After keeping his distance during Dragon Ball GT, Toriyama took an active role again with Dragon Ball Super (2015), personally writing the original story of the films Battle of Gods and Resurrection 'F' on which the series is based, and overseeing the scripts of the following episodes far more closely."
     },
     {
         icon:"🧬",
-        titolo:"Cell è un mosaico di tutti i nemici visti finora",
-        testo:"Cell fu concepito come un \"bio-androide\" costruito dal Dr. Gero con il DNA dei più forti guerrieri incontrati da Goku fino a quel momento, Saiyan compresi, oltre a cellule Namecciane e tecnologia degli Androidi. È per questo che nelle sue forme (Imperfetto, Semiperfetto, Perfetto) mostra tecniche e persino tratti fisici che ricordano Piccolo, Vegeta, Freezer e gli stessi Androidi 17 e 18 che assorbe nella storia."
+        titolo:"Cell is a mosaic of all the enemies seen so far",
+        testo:"Cell was conceived as a \"bio-android\" built by Dr. Gero with the DNA of the strongest warriors Goku had met up to that point, Saiyans included, plus Namekian cells and Android technology. That's why his forms (Imperfect, Semi-Perfect, Perfect) show techniques and even physical traits reminiscent of Piccolo, Vegeta, Frieza and Androids 17 and 18, whom he absorbs in the story."
     },
     {
         icon:"🕯️",
-        titolo:"Akira Toriyama è scomparso nel marzo 2024",
-        testo:"Il 1° marzo 2024 Akira Toriyama è venuto a mancare all'età di 68 anni; la notizia è stata resa pubblica una settimana dopo, l'8 marzo, suscitando un'ondata di tributi in tutto il mondo da parte di fan e colleghi autori. Fino agli ultimi mesi di vita aveva continuato a lavorare personalmente su Dragon Ball Daima, il suo ultimo progetto legato alla serie."
+        titolo:"Akira Toriyama passed away in March 2024",
+        testo:"Akira Toriyama passed away on March 1, 2024 at the age of 68; the news was made public a week later, on March 8, prompting a wave of tributes from fans and fellow creators around the world. Until the last months of his life he had continued to work personally on Dragon Ball Daima, his last project connected to the series."
     },
     {
         icon:"🖋️",
-        titolo:"Daima è stato un progetto fortemente voluto da Toriyama",
-        testo:"A differenza di GT, Dragon Ball Daima (2024-2025) nacque da un'idea originale dello stesso Toriyama, che ne scrisse la sceneggiatura e seguì da vicino la produzione fino alla scomparsa. È considerata la sua ultima opera compiuta legata al franchise, un ritorno al tono più avventuroso e scanzonato del Dragon Ball delle origini."
+        titolo:"Daima was a project Toriyama truly wanted",
+        testo:"Unlike GT, Dragon Ball Daima (2024-2025) came from an original idea by Toriyama himself, who wrote its script and closely followed its production until his death. It is considered his last completed work in the franchise, a return to the more adventurous and lighthearted tone of the original Dragon Ball."
     },
     {
         icon:"🌍",
-        titolo:"Uno dei manga più venduti di sempre",
-        testo:"Con oltre 260 milioni di copie vendute nel mondo tra i 42 volumi originali, Dragon Ball è una delle serie manga più vendute della storia, pubblicata e adattata in decine di paesi su ogni continente. La sua influenza si vede ancora oggi in gran parte dei manga e degli anime d'azione successivi, da Naruto a My Hero Academia."
+        titolo:"One of the best-selling manga of all time",
+        testo:"With over 260 million copies sold worldwide across its 42 original volumes, Dragon Ball is one of the best-selling manga series in history, published and adapted in dozens of countries on every continent. Its influence can still be seen today in much of the action manga and anime that followed, from Naruto to My Hero Academia."
     },
     {
         icon:"🥋",
-        titolo:"L'ispirazione dei film di arti marziali e di Jackie Chan",
-        testo:"Oltre al Viaggio in Occidente, un'altra grande fonte d'ispirazione per Toriyama furono i film di kung fu e di arti marziali che amava guardare, in particolare quelli di Jackie Chan: il mix di combattimenti spettacolari e comicità fisica che caratterizza pellicole come Drunken Master si ritrova chiaramente nel tono dei primi archi narrativi di Dragon Ball."
+        titolo:"Inspired by martial arts films and Jackie Chan",
+        testo:"Besides Journey to the West, another great source of inspiration for Toriyama was the kung fu and martial arts films he loved to watch, especially those of Jackie Chan: the mix of spectacular fights and physical comedy that defines films like Drunken Master is clearly reflected in the tone of Dragon Ball's early story arcs."
     },
     {
         icon:"🔤",
-        titolo:"Perché \"Z\"? Doveva essere la fine della storia",
-        testo:"\"Z\", ultima lettera dell'alfabeto latino, fu scelta per il titolo Dragon Ball Z proprio per suggerire che si trattasse del capitolo conclusivo della saga, pensato in origine come l'ultimo grande atto della storia di Goku. L'enorme successo commerciale della serie convinse però editore e produzione a continuare ben oltre quei piani iniziali."
+        titolo:"Why \"Z\"? It was meant to be the end of the story",
+        testo:"\"Z\", the last letter of the Latin alphabet, was chosen for the title Dragon Ball Z precisely to suggest the closing chapter of the saga, originally conceived as the last great act of Goku's story. The series' huge commercial success, however, convinced the publisher and producers to continue well beyond those initial plans."
     },
     {
         icon:"⭐",
-        titolo:"Le sfere del drago e le loro stelle",
-        testo:"Le sette Sfere del Drago sono contraddistinte da un numero di stelle rosse che va da una a sette, un dettaglio visivo semplice ma efficace pensato per farle riconoscere a colpo d'occhio sia ai personaggi che ai lettori. L'idea di oggetti magici da collezionare in un set numerato, capaci di esaudire un desiderio una volta riuniti, richiama ancora una volta la mitologia del Viaggio in Occidente."
+        titolo:"The Dragon Balls and their stars",
+        testo:"The seven Dragon Balls are marked by a number of red stars ranging from one to seven, a simple but effective visual detail designed to make them instantly recognizable to both characters and readers. The idea of magical objects collected in a numbered set, able to grant a wish once reunited, once again recalls the mythology of Journey to the West."
     },
     {
         icon:"✂️",
-        titolo:"I primi doppiaggi occidentali censurarono molto",
-        testo:"Le prime edizioni televisive occidentali di Dragon Ball Z, come il doppiaggio Ocean trasmesso in Nord America negli anni '90, tagliarono scene di violenza, modificarono dialoghi e persino le musiche originali per adattarsi agli standard televisivi per ragazzi dell'epoca. Solo con le edizioni home video successive, non censurate, il pubblico occidentale poté vedere la serie più vicina alla versione giapponese originale."
+        titolo:"The first Western dubs were heavily censored",
+        testo:"The first Western TV versions of Dragon Ball Z, such as the Ocean dub broadcast in North America in the '90s, cut violent scenes and changed dialogue and even the original music to fit the children's TV standards of the time. Only with later uncensored home video releases could Western audiences see the series closer to the original Japanese version."
     }
 ];
 
 
 /*==========================
-DATI SAGHE (biblioteca dei libricini + pagine dedicate)
+SAGA DATA (booklet library + dedicated pages)
 ==========================*/
 
 const eraInfo={
@@ -346,503 +346,503 @@ const eraInfo={
 
 const sagaData=[
 {
-    id:"db1", era:"db", title:"L'Inizio dell'Avventura", subtitle:"Saga di Pilaf & Torneo Tenkaichi",
+    id:"db1", era:"db", title:"The Adventure Begins", subtitle:"Pilaf Saga & Tenkaichi Tournament",
     icon:"road", range:"1–28", total:28, filler:2, fillerNote:null,
-    characters:["Goku","Bulma","Muten Roshi","Krillin"],
+    characters:["Goku","Bulma","Master Roshi","Krillin"],
     sections:[
-        {heading:"Un bambino nella foresta",
+        {heading:"A boy in the forest",
         paragraphs:[
-            "Tutto comincia nella foresta ai piedi del Monte Paozu, dove un bambino dalla coda di scimmia di nome Son Goku vive da solo, forte come un adulto e ingenuo come un cucciolo. Non ha mai visto un'automobile, non sa cosa sia una città, e crede che la Sfera del Drago a quattro stelle lasciatagli dal nonno Gohan sia semplicemente un cimelio di famiglia.",
-            "L'incontro con la giovane inventrice Bulma, in cerca delle leggendarie Sfere del Drago capaci di esaudire un desiderio, lo trascina in un viaggio che cambierà per sempre la sua vita. I due partono a bordo della Capsule House, un'automobile-casa portatile, dando il via a un'avventura on the road che alterna momenti comici a primi, veri pericoli."
+            "It all begins in the forest at the foot of Mount Paozu, where a monkey-tailed boy named Son Goku lives alone, as strong as an adult and as naive as a puppy. He has never seen a car, doesn't know what a city is, and believes the four-star Dragon Ball left to him by his grandfather Gohan is simply a family heirloom.",
+            "His meeting with the young inventor Bulma, who is searching for the legendary Dragon Balls that can grant a wish, draws him into a journey that will change his life forever. The two set off in the Capsule House, a portable car-home, starting a road adventure that alternates comic moments with the first real dangers."
         ]},
-        {heading:"La banda di Pilaf e i primi compagni",
+        {heading:"Pilaf's gang and the first companions",
         paragraphs:[
-            "Lungo la strada si aggiungono compagni destinati a restare per sempre nella leggenda: l'anziano Muten Roshi, futuro maestro di Goku e proprietario della sfera a tre stelle; il monaco combattente Krillin, che diventerà rivale e migliore amico; il porcellino trasformista Oolong e il gatto Pu'ar, entrambi capaci di cambiare forma a piacimento.",
-            "Insieme affrontano il meschino imperatore Pilaf, un piccolo tiranno che vuole usare le sfere per conquistare il mondo insieme ai suoi scagnozzi Shu e Mai. Le sue macchinazioni, spesso ridicolizzate dalla stessa serie, restano comunque abbastanza pericolose da mettere a rischio la vita del gruppo più di una volta."
+            "Along the way they are joined by companions destined to remain in legend forever: the elderly Master Roshi, Goku's future teacher and owner of the three-star ball; the fighting monk Krillin, who will become his rival and best friend; the shapeshifting pig Oolong and the cat Puar, both able to change form at will.",
+            "Together they face the petty Emperor Pilaf, a small-time tyrant who wants to use the balls to conquer the world with his henchmen Shu and Mai. His schemes, often mocked by the series itself, are still dangerous enough to put the group's lives at risk more than once."
         ]},
-        {heading:"Tre anni di allenamento",
+        {heading:"Three years of training",
         paragraphs:[
-            "Il tono cambia quando Goku si allena per tre anni sotto Muten Roshi insieme a Krillin, in un dojo dove disciplina e sacrificio contano più del talento naturale. Le prove sono estenuanti: consegne a piedi con pesi enormi, lavori nei campi, corse contro il tempo, tutte pensate per costruire resistenza fisica e mentale prima ancora della tecnica di combattimento.",
-            "È qui che Goku impara il Kamehameha, la tecnica energetica che lo accompagnerà per tutta la carriera, e scopre che la vera forza nasce dalla ripetizione paziente, non da un dono innato."
+            "The tone changes when Goku trains for three years under Master Roshi alongside Krillin, in a dojo where discipline and sacrifice count for more than natural talent. The trials are exhausting: deliveries on foot carrying huge weights, work in the fields, races against time, all designed to build physical and mental endurance even before fighting technique.",
+            "It is here that Goku learns the Kamehameha, the energy technique that will stay with him for his whole career, and discovers that true strength comes from patient repetition, not from an innate gift."
         ]},
-        {heading:"Il 21° Torneo Tenkaichi",
+        {heading:"The 21st Tenkaichi Tournament",
         paragraphs:[
-            "L'arco si chiude con il 21° Torneo Tenkaichi, il più importante torneo di arti marziali del mondo, dove Goku affronta per la prima volta veri rivali provenienti da scuole diverse, incluso un misterioso combattente mascherato di nome Jackie Chun, che nasconde un'identità a sorpresa.",
-            "Questa saga getta le fondamenta di tutto ciò che verrà: l'amicizia, la ricerca delle Sfere del Drago, i tornei come banco di prova e la crescita costante di un eroe che, episodio dopo episodio, smette di essere un bambino selvaggio per diventare il guerriero più forte dell'universo."
+            "The arc closes with the 21st Tenkaichi Tournament, the most important martial arts tournament in the world, where Goku faces real rivals from different schools for the first time, including a mysterious masked fighter named Jackie Chun, who hides a surprising identity.",
+            "This saga lays the foundations for everything to come: friendship, the search for the Dragon Balls, tournaments as a testing ground and the steady growth of a hero who, episode after episode, stops being a wild child and becomes the strongest warrior in the universe."
         ]}
     ]
 },
 {
-    id:"db2", era:"db", title:"L'Esercito del Nastro Rosso", subtitle:"Red Ribbon Army, Generale Blue, Comandante Red & Baba",
+    id:"db2", era:"db", title:"The Red Ribbon Army", subtitle:"Red Ribbon Army, General Blue, Commander Red & Baba",
     icon:"flag", range:"29–77", total:49, filler:5, fillerNote:null,
-    characters:["Goku","Comandante Red","Generale Blue","Tao Pai Pai"],
+    characters:["Goku","Commander Red","General Blue","Tao Pai Pai"],
     sections:[
-        {heading:"La sfera del nonno Gohan",
+        {heading:"Grandpa Gohan's ball",
         paragraphs:[
-            "Nella ricerca della sfera a quattro stelle, ricordo del nonno Gohan andato perduto, Goku si scontra con il Red Ribbon Army, un esercito criminale globale guidato dallo spietato Comandante Red, deciso a raccogliere tutte le Sfere del Drago per ottenere ricchezza e potere illimitati.",
-            "Da solo, il piccolo Goku smantella basi militari, carri armati e intere squadre di soldati con la forza e l'ingegno, dimostrando che l'addestramento di Muten Roshi ha dato i suoi frutti ben oltre le aspettative."
+            "While searching for the four-star ball, the lost keepsake of his grandfather Gohan, Goku clashes with the Red Ribbon Army, a global criminal force led by the ruthless Commander Red, determined to collect all the Dragon Balls to gain unlimited wealth and power.",
+            "Alone, little Goku dismantles military bases, tanks and entire squads of soldiers with strength and ingenuity, proving that Master Roshi's training has paid off far beyond expectations."
         ]},
-        {heading:"Generale Blue e il Comandante Red",
+        {heading:"General Blue and Commander Red",
         paragraphs:[
-            "Tra gli avversari spicca il Generale Blue, capace di ipnosi e crudeltà glaciale, capace di paralizzare Goku con lo sguardo durante uno degli scontri più tesi della saga. Al vertice dell'organizzazione, il minuscolo ma feroce Comandante Red governa con il terrore, pronto a eliminare i propri uomini per un fallimento.",
-            "Le rivalità interne all'esercito, tra generali ambiziosi e sottoposti terrorizzati, offrono uno spaccato quasi satirico del potere corrotto, con Goku che si ritrova spesso a beneficiare del caos organizzativo dei suoi nemici."
+            "Among his opponents, General Blue stands out for his hypnosis and icy cruelty, able to paralyze Goku with a glance in one of the saga's tensest fights. At the top of the organization, the tiny but fierce Commander Red rules through terror, ready to eliminate his own men for a single failure.",
+            "The rivalries inside the army, between ambitious generals and terrified subordinates, offer an almost satirical look at corrupt power, with Goku often benefiting from his enemies' organizational chaos."
         ]},
-        {heading:"Tao Pai Pai e la Torre di Karin",
+        {heading:"Tao Pai Pai and Korin Tower",
         paragraphs:[
-            "Il vero punto di svolta arriva con Tao Pai Pai, il sicario definitivo assoldato per eliminare Goku: un combattimento che si conclude con una sconfitta umiliante per il protagonista, costretto a un secondo, durissimo addestramento sulla Torre di Karin per poterlo finalmente affrontare alla pari.",
-            "Qui Goku beve l'Acqua Sacra e stringe amicizia con il maestro gatto Karin, custode della torre, ottenendo la forza necessaria per un rivincita che ribalta completamente l'esito del primo scontro."
+            "The real turning point comes with Tao Pai Pai, the ultimate assassin hired to eliminate Goku: a fight that ends in a humiliating defeat for the protagonist, who is forced into a second, grueling training on Korin Tower to finally face him as an equal.",
+            "Here Goku drinks the Sacred Water and befriends the cat master Korin, the tower's guardian, gaining the strength he needs for a rematch that completely reverses the outcome of their first fight."
         ]},
-        {heading:"L'ultima sfera e il torneo di Baba",
+        {heading:"The last ball and Baba's tournament",
         paragraphs:[
-            "Dopo la caduta dell'esercito, la ricerca dell'ultima sfera porta Goku dalla veggente Baba, sorella di Muten Roshi, che organizza un piccolo torneo tra i suoi guerrieri più forti come prova per riavere la sfera: un episodio che introduce nuovi rivali e prepara il terreno per il torneo successivo.",
-            "È una saga di crescita e di prime, vere perdite: personaggi amati muoiono, tornano in vita grazie alle Sfere del Drago, e Goku impara che la forza non basta senza intelligenza e determinazione, temi che accompagneranno tutta la sua carriera di combattente."
+            "After the army's fall, the search for the last ball leads Goku to the fortune teller Baba, Master Roshi's sister, who holds a small tournament among her strongest warriors as a test to win back the ball: an episode that introduces new rivals and sets the stage for the next tournament.",
+            "It is a saga of growth and of the first real losses: beloved characters die, come back to life thanks to the Dragon Balls, and Goku learns that strength isn't enough without intelligence and determination, themes that will stay with him throughout his fighting career."
         ]}
     ]
 },
 {
-    id:"db3", era:"db", title:"Il Demone Piccolo", subtitle:"Tenshinhan, Re Piccolo & Piccolo Junior",
+    id:"db3", era:"db", title:"The Demon Piccolo", subtitle:"Tien, King Piccolo & Piccolo Jr.",
     icon:"crown", range:"78–153", total:76, filler:4, fillerNote:null,
-    characters:["Goku","Tenshinhan","Re Piccolo","Piccolo"],
+    characters:["Goku","Tien","King Piccolo","Piccolo"],
     sections:[
-        {heading:"Il 22° Torneo e la Scuola della Gru",
+        {heading:"The 22nd Tournament and the Crane School",
         paragraphs:[
-            "Al 22° Torneo Tenkaichi Goku affronta la scuola della Gru, rappresentata dal freddo e talentuoso Tenshinhan e dal suo compagno telepatico Chaozu: uno scontro tecnico e spietato che eleva per la prima volta il livello del torneo a vette mai viste, introducendo tecniche come il Kikoho e il potere del terzo occhio.",
-            "Il torneo si conclude con una vittoria a sorpresa che lascia il segno su tutti i partecipanti, e semina i primi dubbi sulla reale differenza tra allenamento onesto e tecniche proibite come il lavaggio del cervello subito da Tenshinhan dal suo maestro."
+            "At the 22nd Tenkaichi Tournament Goku faces the Crane School, represented by the cold, talented Tien and his telepathic companion Chiaotzu: a technical, ruthless clash that raises the tournament to unprecedented heights for the first time, introducing techniques such as the Tri-Beam and the power of the third eye.",
+            "The tournament ends with a surprise victory that leaves its mark on every participant, and sows the first doubts about the real difference between honest training and forbidden techniques, such as the brainwashing Tien suffered at the hands of his master."
         ]},
-        {heading:"Il risveglio di Re Piccolo",
+        {heading:"The awakening of King Piccolo",
         paragraphs:[
-            "Poco dopo, un'antica minaccia risorge: Re Piccolo, demone malvagio sigillato secoli prima in un vaso da Mutaito, torna libero e semina il caos, uccidendo maestri storici e conquistando il pianeta con il terrore, in una delle sequenze più cupe dell'intera opera originale.",
-            "Goku, ormai giovane adulto, deve affrontarlo in uno scontro che segna il primo vero punto di non ritorno della serie, con perdite dolorose tra i suoi alleati e una tensione che il manga originale non aveva ancora mai raggiunto."
+            "Soon after, an ancient threat rises again: King Piccolo, an evil demon sealed in a jar centuries earlier by Mutaito, breaks free and spreads chaos, killing legendary masters and conquering the planet through terror, in one of the darkest sequences of the entire original work.",
+            "Goku, now a young adult, must face him in a fight that marks the series' first true point of no return, with painful losses among his allies and a tension the original manga had never reached before."
         ]},
-        {heading:"Piccolo Junior e l'addestramento di Kaiō",
+        {heading:"Piccolo Jr. and King Kai's training",
         paragraphs:[
-            "Sconfitto in punto di morte, Re Piccolo genera un figlio-erede, Piccolo Junior, prima di spirare. Il giovane demone punta al 23° Torneo Tenkaichi per vendicare il padre, mentre Goku, morto in battaglia, raggiunge il Regno dei Cieli e si allena sotto la guida di Kaiō, il Signore dei Mondi, imparando la tecnica del Kaiō-ken.",
-            "Questo espediente narrativo introduce per la prima volta il concetto di aldilà allenabile, un elemento che tornerà più volte nella mitologia della serie negli anni successivi."
+            "Defeated and on the verge of death, King Piccolo spawns a son and heir, Piccolo Jr., before he dies. The young demon sets his sights on the 23rd Tenkaichi Tournament to avenge his father, while Goku, killed in battle, reaches the Other World and trains under King Kai, Lord of the Worlds, learning the Kaio-ken technique.",
+            "This plot device introduces for the first time the idea of an afterlife where you can train, an element that will return many times in the series' mythology over the following years."
         ]},
-        {heading:"Il 23° Torneo Tenkaichi",
+        {heading:"The 23rd Tenkaichi Tournament",
         paragraphs:[
-            "Il duello finale tra Goku e Piccolo Junior, tra distruzione dell'arena e colpi capaci di spaccare le montagne, chiude in modo epico la storia originale di Dragon Ball, con un colpo di scena che ribalta le sorti del combattimento negli ultimi istanti.",
-            "L'arco apre simbolicamente le porte alla saga successiva, dove Piccolo — sconfitto ma non ucciso — sceglierà infine di allearsi con il suo storico nemico, ponendo le basi per una delle amicizie più significative di tutta Dragon Ball Z."
+            "The final duel between Goku and Piccolo Jr., with the arena destroyed and blows that can split mountains, brings the original Dragon Ball story to an epic close, with a twist that reverses the fight in its final moments.",
+            "The arc symbolically opens the door to the next saga, where Piccolo, defeated but not killed, will eventually choose to ally himself with his old enemy, laying the groundwork for one of the most meaningful friendships in all of Dragon Ball Z."
         ]}
     ]
 },
 {
-    id:"dbz1", era:"dbz", title:"L'Arrivo dei Saiyan", subtitle:"Saga Saiyan",
+    id:"dbz1", era:"dbz", title:"The Saiyans Arrive", subtitle:"Saiyan Saga",
     icon:"burst", range:"1–39", total:39, filler:5, fillerNote:null,
     characters:["Goku","Raditz","Vegeta","Nappa","Piccolo","Gohan"],
     sections:[
-        {heading:"Raditz e la verità su Goku",
+        {heading:"Raditz and the truth about Goku",
         paragraphs:[
-            "Anni dopo la sconfitta di Piccolo Junior, un guerriero dalla coda simile a quella di Goku atterra sulla Terra: è Raditz, suo fratello maggiore, che rivela una verità sconvolgente. Goku non è umano, ma un Saiyan, guerriero di un popolo di conquistatori spaziali, inviato da neonato per distruggere il pianeta prima di perdere la memoria in un incidente da bambino.",
-            "Raditz rapisce il piccolo Gohan, figlio di Goku, come leva per costringere il fratello a unirsi a lui nella conquista di altri mondi, rivelando anche l'esistenza di altri due Saiyan sopravvissuti, ben più pericolosi di lui."
+            "Years after the defeat of Piccolo Jr., a warrior with a tail like Goku's lands on Earth: he is Raditz, Goku's older brother, who reveals a shocking truth. Goku is not human but a Saiyan, a warrior from a race of space conquerors, sent as a baby to destroy the planet before losing his memory in a childhood accident.",
+            "Raditz kidnaps little Gohan, Goku's son, as leverage to force his brother to join him in conquering other worlds, also revealing the existence of two other surviving Saiyans, far more dangerous than he is."
         ]},
-        {heading:"Il sacrificio di Piccolo e Goku",
+        {heading:"The sacrifice of Piccolo and Goku",
         paragraphs:[
-            "Per fermare Raditz e salvare il figlio, Goku è costretto a un'alleanza impensabile con Piccolo, suo storico nemico. Solo unendo le forze riescono a immobilizzare il Saiyan, ma il colpo finale costa la vita a entrambi: Piccolo sacrifica sé stesso per sferrare l'attacco decisivo, e Goku muore stritolato insieme a Raditz.",
-            "Il sacrificio è uno dei momenti più iconici della serie e introduce il concetto degli Occhi di Kaiō e di un aldilà popolato da anime pronte ad allenarsi, mentre sulla Terra Bulma e gli altri iniziano a organizzarsi per l'attacco imminente."
+            "To stop Raditz and save his son, Goku is forced into an unthinkable alliance with Piccolo, his old enemy. Only by joining forces can they immobilize the Saiyan, but the final blow costs both of them their lives: Piccolo sacrifices himself to fire the decisive attack, and Goku is crushed to death together with Raditz.",
+            "The sacrifice is one of the most iconic moments of the series and introduces the concept of the Eyes of Kaio and of an afterlife full of souls ready to train, while on Earth Bulma and the others start preparing for the coming attack."
         ]},
-        {heading:"L'attesa e l'addestramento",
+        {heading:"The wait and the training",
         paragraphs:[
-            "Con Goku nel Regno dei Cieli per un anno di addestramento straordinario sotto Kaiō, i guerrieri Z rimasti sulla Terra — Piccolo, Krillin, Tenshinhan, Chaozu e Yamcha — si preparano al peggio, allenando persino un giovane Gohan capace di sprigionare un potere nascosto quando è in pericolo.",
-            "Piccolo, nel frattempo, addestra Gohan con metodi durissimi, gettando le basi di un legame che diventerà uno dei più toccanti dell'intera serie."
+            "With Goku in the Other World for a year of extraordinary training under King Kai, the Z Fighters left on Earth (Piccolo, Krillin, Tien, Chiaotzu and Yamcha) prepare for the worst, even training a young Gohan who can release a hidden power when in danger.",
+            "Piccolo, meanwhile, trains Gohan with very harsh methods, laying the foundations of a bond that will become one of the most moving in the entire series."
         ]},
-        {heading:"Vegeta e Nappa sulla Terra",
+        {heading:"Vegeta and Nappa on Earth",
         paragraphs:[
-            "La vera minaccia arriva un anno dopo: Vegeta, principe dei Saiyan, e il gigantesco Nappa sbarcano sulla Terra in cerca delle Sfere del Drago per diventare immortali. I guerrieri Z oppongono resistenza, ma pagano un prezzo altissimo: Yamcha, Chaozu, Tenshinhan e lo stesso Piccolo cadono uno dopo l'altro contro il devastante potere di Nappa.",
-            "È solo grazie a un Goku potenziato al ritorno dal Regno dei Cieli che la bilancia comincia finalmente a spostarsi a favore della Terra."
+            "The real threat arrives a year later: Vegeta, Prince of the Saiyans, and the gigantic Nappa land on Earth looking for the Dragon Balls to become immortal. The Z Fighters put up resistance but pay a very high price: Yamcha, Chiaotzu, Tien and Piccolo himself fall one after another to Nappa's devastating power.",
+            "Only when a powered-up Goku returns from the Other World do the scales finally begin to tip in Earth's favor."
         ]},
-        {heading:"La trasformazione in Grande Scimmia",
+        {heading:"The Great Ape transformation",
         paragraphs:[
-            "Lo scontro finale contro Vegeta, culminato nella sua trasformazione in Grande Scimmia sotto una luna artificiale creata da lui stesso, porta i protagonisti sull'orlo della sconfitta totale: solo un ultimo, disperato colpo di squadra tra Gohan, Krillin e un Goku ormai allo stremo riesce a fermarlo.",
-            "Vegeta fugge sconfitto e umiliato, ma la Terra ha ormai scoperto di non essere sola nell'universo, e i guerrieri Z si preparano a un viaggio che li porterà ben oltre i confini del proprio pianeta."
+            "The final battle against Vegeta, culminating in his transformation into a Great Ape under an artificial moon of his own making, brings the heroes to the brink of total defeat: only one last, desperate team effort by Gohan, Krillin and an exhausted Goku manages to stop him.",
+            "Vegeta flees defeated and humiliated, but Earth has now learned it isn't alone in the universe, and the Z Fighters prepare for a journey that will take them far beyond the borders of their own planet."
         ]}
     ]
 },
 {
-    id:"dbz2", era:"dbz", title:"Namek in Fiamme", subtitle:"Namek, Capitano Ginyu & Freezer",
+    id:"dbz2", era:"dbz", title:"Namek in Flames", subtitle:"Namek, Captain Ginyu & Frieza",
     icon:"planet", range:"40–107", total:68, filler:10, fillerNote:null,
-    characters:["Goku","Gohan","Vegeta","Freezer","Capitano Ginyu"],
+    characters:["Goku","Gohan","Vegeta","Frieza","Captain Ginyu"],
     sections:[
-        {heading:"Il viaggio verso Namek",
+        {heading:"The journey to Namek",
         paragraphs:[
-            "Per resuscitare i caduti con le Sfere del Drago terrestri, ormai inutilizzabili dopo un solo desiderio, Bulma, Gohan e Krillin partono per il pianeta Namek, dove esistono altre sfere native. Il viaggio interstellare, a bordo di un'astronave recuperata dai resti dell'invasione Saiyan, segna il primo vero salto di scala della serie, che da questo momento abbandona la sola Terra.",
-            "Qui scoprono che l'imperatore galattico Freezer, lo stesso che anni prima annientò il popolo Saiyan, sta già raccogliendo le sfere native per diventare immortale, affiancato da un esercito di soldati e scienziati al suo servizio."
+            "To revive the fallen with Earth's Dragon Balls, now unusable after a single wish, Bulma, Gohan and Krillin set off for planet Namek, home to other native balls. The interstellar journey, aboard a spaceship salvaged from the remains of the Saiyan invasion, marks the series' first real leap in scale, leaving Earth behind from this moment on.",
+            "There they discover that the galactic emperor Frieza, the same tyrant who wiped out the Saiyan people years earlier, is already gathering the native balls to become immortal, backed by an army of soldiers and scientists."
         ]},
-        {heading:"La corsa alle sfere e Vegeta",
+        {heading:"The race for the balls and Vegeta",
         paragraphs:[
-            "Sul pianeta verde si muove anche Vegeta, sopravvissuto allo scontro sulla Terra e in cerca di riscatto e potere personale, pronto a tradire chiunque pur di ottenere l'immortalità prima di Freezer. La sua presenza complica ulteriormente gli equilibri, creando una guerra a tre tra Terrestri, Freezer e il principe Saiyan.",
-            "Nel frattempo i namecciani, popolo pacifico dotato di straordinarie capacità rigenerative e telepatiche, cercano disperatamente di proteggere le proprie sfere dagli invasori, rivelando dettagli inediti sulla propria cultura e sulla loro connessione con Kami, il guardiano della Terra."
+            "Vegeta is also on the green planet, having survived the battle on Earth and seeking redemption and personal power, ready to betray anyone to gain immortality before Frieza. His presence upsets the balance further, creating a three-way war between the Earthlings, Frieza and the Saiyan prince.",
+            "Meanwhile the Namekians, a peaceful people with extraordinary regenerative and telepathic abilities, desperately try to protect their balls from the invaders, revealing new details about their culture and their connection with Kami, Earth's guardian."
         ]},
-        {heading:"La Ginyu Force",
+        {heading:"The Ginyu Force",
         paragraphs:[
-            "Le forze speciali di Freezer, la famigerata Ginyu Force, danno vita a scontri tanto assurdi quanto letali: cinque guerrieri dalle pose plateali e dai poteri unici, tra cui il celebre scambio di corpi tra il Capitano Ginyu e Goku, che costringe gli eroi a strategie disperate per tornare nei propri corpi originali.",
-            "L'episodio, tra i più amati per il suo tono a metà tra comico e teso, dimostra come anche i nemici più potenti possano essere sconfitti con l'ingegno più che con la sola forza bruta."
+            "Frieza's special forces, the infamous Ginyu Force, bring fights as absurd as they are deadly: five warriors with theatrical poses and unique powers, including the famous body swap between Captain Ginyu and Goku, which forces the heroes into desperate strategies to get back into their original bodies.",
+            "The episode, among the most beloved for its tone halfway between comic and tense, shows how even the most powerful enemies can be beaten with ingenuity rather than brute force alone."
         ]},
-        {heading:"Il vero volto di Freezer",
+        {heading:"Frieza's true face",
         paragraphs:[
-            "Quando Goku arriva finalmente su Namek dopo essersi ripreso dalle ferite, si scopre la vera natura di Freezer: un tiranno capace di trasformarsi in forme sempre più devastanti, ciascuna nascosta dietro un aspetto apparentemente più debole della precedente, fino a un'ultima forma quasi indistruttibile.",
-            "La rivelazione che Freezer distrusse personalmente il pianeta natale dei Saiyan per timore della leggenda del Super Saiyan aggiunge un livello di tragedia personale a tutta la vicenda, motivando la rabbia sia di Goku che di Vegeta."
+            "When Goku finally reaches Namek after recovering from his wounds, Frieza's true nature comes to light: a tyrant who can transform into ever more devastating forms, each hidden behind an apparently weaker look than the last, up to a final, almost indestructible form.",
+            "The revelation that Frieza personally destroyed the Saiyans' home planet out of fear of the Super Saiyan legend adds a layer of personal tragedy to the whole story, fueling the anger of both Goku and Vegeta."
         ]},
-        {heading:"La morte di Krillin e la nascita del Super Saiyan",
+        {heading:"Krillin's death and the birth of the Super Saiyan",
         paragraphs:[
-            "La morte di Krillin per mano di Freezer, che lo fa esplodere davanti agli occhi di Goku dopo aver finto una tregua, scatena nel protagonista una rabbia incontenibile che lo porta a superare un limite ritenuto leggendario da millenni.",
-            "Nasce così il primo Super Saiyan in ventimila anni: capelli dorati, aura elettrica e un potere capace finalmente di reggere il confronto con l'imperatore galattico, in una delle trasformazioni più celebrate nella storia dell'animazione giapponese."
+            "Krillin's death at the hands of Frieza, who blows him up before Goku's eyes after pretending to call a truce, unleashes an uncontrollable rage in the protagonist, driving him past a limit considered legendary for millennia.",
+            "So the first Super Saiyan in twenty thousand years is born: golden hair, an electric aura and a power finally able to stand up to the galactic emperor, in one of the most celebrated transformations in the history of Japanese animation."
         ]},
-        {heading:"La fuga da un pianeta che esplode",
+        {heading:"Escape from an exploding planet",
         paragraphs:[
-            "La battaglia finale contro Freezer, tra un pianeta che collassa e sta per esplodere e una fuga rocambolesca nello spazio a bordo di un'astronave namecciana, chiude uno degli archi narrativi più celebrati di tutta la serie, ridefinendo per sempre cosa significhi essere un guerriero Saiyan.",
-            "Sulla Terra, intanto, le sfere del drago vengono usate per riportare in vita i caduti e persino trasferire l'intero popolo namecciano superstite su un nuovo pianeta, chiudendo la vicenda con un finale agrodolce ma pieno di speranza."
+            "The final battle against Frieza, on a collapsing planet about to explode and followed by a daring escape into space aboard a Namekian ship, closes one of the most celebrated story arcs of the entire series, redefining forever what it means to be a Saiyan warrior.",
+            "On Earth, meanwhile, the Dragon Balls are used to bring the fallen back to life and even to move all the surviving Namekians to a new planet, ending the story on a bittersweet but hopeful note."
         ]}
     ]
 },
 {
-    id:"dbz3", era:"dbz", title:"L'Ombra di Garlic Jr.", subtitle:"Saga di Garlic Jr. (interamente filler)",
+    id:"dbz3", era:"dbz", title:"The Shadow of Garlic Jr.", subtitle:"Garlic Jr. Saga (entirely filler)",
     icon:"vortex", range:"108–118", total:11, filler:11, fillerNote:"100% filler",
     characters:["Gohan","Piccolo","Krillin","Garlic Jr."],
     sections:[
-        {heading:"Un nemico dimenticato",
+        {heading:"A forgotten enemy",
         paragraphs:[
-            "Mentre Goku è ancora disperso nello spazio dopo la fuga da Namek, la Terra deve affrontare da sola una minaccia mai raccontata nel manga originale: Garlic Jr., un demone immortale già sconfitto anni prima dal padre di Goku in una battaglia mai mostrata direttamente, torna in cerca di vendetta.",
-            "Ad aiutarlo è la misteriosa Nebbia Nera, una sostanza capace di risvegliare gli istinti più oscuri e violenti di chiunque la respiri, trasformando persone comuni in marionette aggressive al suo servizio."
+            "While Goku is still lost in space after escaping Namek, Earth must face alone a threat never told in the original manga: Garlic Jr., an immortal demon already defeated years earlier by Goku's father in a battle never shown directly, returns seeking revenge.",
+            "Helping him is the mysterious Black Water Mist, a substance that awakens the darkest and most violent instincts of anyone who breathes it, turning ordinary people into aggressive puppets at his service."
         ]},
-        {heading:"Gohan e Piccolo, soli contro tutto",
+        {heading:"Gohan and Piccolo, alone against everything",
         paragraphs:[
-            "Con Goku assente, tocca a Piccolo e a un giovane Gohan, alla sua prima vera prova da protagonista senza il padre al fianco, difendere il pianeta. È un arco pensato interamente per l'anime, per colmare i tempi di attesa rispetto al manga, ma che approfondisce il legame tra maestro e allievo in un modo che il fumetto non aveva ancora avuto modo di fare.",
-            "La responsabilità che grava sulle spalle di Gohan, costretto a crescere in fretta senza il supporto del padre, anticipa temi che torneranno centrali negli anni successivi della serie."
+            "With Goku away, it falls to Piccolo and a young Gohan, in his first real test as a lead without his father at his side, to defend the planet. The arc was created entirely for the anime, to fill the gap with the manga, but it deepens the bond between master and pupil in a way the comic hadn't yet had the chance to do.",
+            "The responsibility weighing on Gohan's shoulders, forced to grow up fast without his father's support, anticipates themes that will become central in later years of the series."
         ]},
-        {heading:"La Terra dei Morti Viventi",
+        {heading:"The Dead Zone",
         paragraphs:[
-            "Garlic Jr. apre un varco verso la Terra dei Morti Viventi, una dimensione oscura e senza tempo da cui, se sigillato dentro, non potrà più uscire: la sfida finale consiste proprio nel costringerlo a varcare quella soglia prima che sia troppo tardi per il pianeta intero.",
-            "Pur non facendo parte della continuità del manga, questa saga è diventata un classico del fandom, tanto da essere citata e ripresa anni dopo in Dragon Ball Super, a testimonianza di quanto anche le storie \"extra\" abbiano lasciato il segno nell'immaginario della serie."
+            "Garlic Jr. opens a rift to the Dead Zone, a dark, timeless dimension from which he can never escape if sealed inside: the final challenge is to force him across that threshold before it is too late for the whole planet.",
+            "Although it isn't part of the manga's continuity, this saga has become a fandom classic, even being referenced years later in Dragon Ball Super, proof of how much these \"extra\" stories left their mark on the series' imagination."
         ]}
     ]
 },
 {
-    id:"dbz4", era:"dbz", title:"Gli Androidi e la Perfezione di Cell", subtitle:"Trunks, Androidi, Cell Imperfetto/Perfetto & Torneo di Cell",
+    id:"dbz4", era:"dbz", title:"The Androids and Cell's Perfection", subtitle:"Trunks, Androids, Imperfect/Perfect Cell & Cell Games",
     icon:"machine", range:"119–194", total:76, filler:15, fillerNote:null,
-    characters:["Goku","Vegeta","Trunks","Cell","Gohan","Androide 18"],
+    characters:["Goku","Vegeta","Trunks","Cell","Gohan","Android 18"],
     sections:[
-        {heading:"Un guerriero dal futuro",
+        {heading:"A warrior from the future",
         paragraphs:[
-            "Un misterioso guerriero Saiyan arriva dal futuro per avvertire i guerrieri Z: tra tre anni due androidi creati dal Dr. Gero, scienziato del disciolto Red Ribbon Army, seminerranno morte e distruzione su scala planetaria. Quel guerriero è Trunks, figlio di Vegeta e Bulma proveniente da una linea temporale devastata, dove quasi tutti i protagonisti sono già morti.",
-            "La sua rivelazione, incluso l'annuncio della morte di Goku per una malattia cardiaca imminente, dà il via a un durissimo periodo di addestramento e a una corsa contro il tempo per cambiare un futuro già scritto."
+            "A mysterious Saiyan warrior arrives from the future to warn the Z Fighters: in three years, two androids created by Dr. Gero, a scientist of the disbanded Red Ribbon Army, will bring death and destruction on a planetary scale. That warrior is Trunks, the son of Vegeta and Bulma, from a devastated timeline where almost all the heroes are already dead.",
+            "His revelation, including the news of Goku's coming death from a heart disease, kicks off a grueling period of training and a race against time to change a future already written."
         ]},
-        {heading:"Il risveglio degli Androidi 17 e 18",
+        {heading:"The awakening of Androids 17 and 18",
         paragraphs:[
-            "Quando gli Androidi 17 e 18 si risvegliano, si rivelano più imprevedibili del previsto: capricciosi, quasi giocosi nella loro crudeltà, sfuggono al controllo dello stesso Dr. Gero, uccidendolo per primo. La loro noia annoiata e la mancanza di un vero obiettivo li rende ancora più imprevedibili dei classici villain della serie.",
-            "Ma la vera minaccia è un terzo esperimento, tenuto segreto persino agli altri androidi: Cell, un essere bioingegnerizzato nato dalle cellule di Goku, Vegeta, Freezer, Piccolo e altri guerrieri leggendari, capace di assorbire gli androidi per completare la propria evoluzione."
+            "When Androids 17 and 18 awaken, they turn out to be more unpredictable than expected: capricious, almost playful in their cruelty, they escape the control of Dr. Gero himself and kill him first. Their boredom and lack of any real goal make them even more unpredictable than the series' classic villains.",
+            "But the real threat is a third experiment, kept secret even from the other androids: Cell, a bioengineered being born from the cells of Goku, Vegeta, Frieza, Piccolo and other legendary warriors, able to absorb the androids to complete his evolution."
         ]},
-        {heading:"La Camera dello Spirito e del Tempo",
+        {heading:"The Hyperbolic Time Chamber",
         paragraphs:[
-            "La corsa contro il tempo per fermare Cell prima che raggiunga la sua forma perfetta occupa il cuore della saga, tra la Camera dello Spirito e del Tempo — una dimensione dove un anno equivale a un solo giorno esterno, ma dove la gravità e l'isolamento estremo mettono a dura prova anche i più forti.",
-            "È qui che Vegeta, ormai deciso a non farsi più superare da Goku, sblocca per primo il Super Saiyan di secondo livello, un potere ancora più devastante della prima trasformazione dorata."
+            "The race to stop Cell before he reaches his perfect form takes up the heart of the saga, with the Hyperbolic Time Chamber: a dimension where a year equals a single day outside, but where gravity and extreme isolation test even the strongest.",
+            "It is here that Vegeta, determined never again to be surpassed by Goku, is the first to unlock the second-level Super Saiyan, a power even more devastating than the first golden transformation."
         ]},
-        {heading:"I Giochi di Cell",
+        {heading:"The Cell Games",
         paragraphs:[
-            "Fallito il tentativo di impedirne l'evoluzione, Cell assorbe entrambi gli androidi e raggiunge la sua Forma Perfetta, per poi organizzare il proprio torneo, i Giochi di Cell, sfidando il pianeta intero a fermarlo davanti alle telecamere di tutto il mondo.",
-            "Goku, sorprendendo tutti, si ritira dopo il primo round per lasciare spazio a un giovane Gohan, convinto che il ragazzo nasconda un potenziale superiore al proprio, nonostante le proteste generali per una scelta apparentemente incomprensibile."
+            "After the attempt to stop his evolution fails, Cell absorbs both androids and reaches his Perfect Form, then organizes his own tournament, the Cell Games, challenging the entire planet to stop him in front of the world's cameras.",
+            "Goku surprises everyone by withdrawing after the first round to make way for a young Gohan, convinced that the boy hides a potential greater than his own, despite general protests over an apparently incomprehensible choice."
         ]},
-        {heading:"La rabbia di Gohan",
+        {heading:"Gohan's rage",
         paragraphs:[
-            "È qui che un adolescente Gohan, spinto oltre ogni limite dalla morte dell'amico Androide 16 e dalla rabbia repressa per anni, sblocca un potere che nemmeno Goku possiede, in uno dei climax più celebrati dell'intera saga.",
-            "Il sacrificio finale di Goku, che si teletrasporta insieme a Cell lontano dalla Terra per salvare il pianeta da un'esplosione finale, sembra la fine — ma la storia riserva ancora un ultimo, sorprendente capitolo prima della vittoria definitiva."
+            "It is here that a teenage Gohan, pushed past every limit by the death of his friend Android 16 and by years of repressed anger, unlocks a power not even Goku possesses, in one of the most celebrated climaxes of the entire saga.",
+            "Goku's final sacrifice, teleporting with Cell far from Earth to save the planet from a final explosion, seems like the end, but the story still has one last, surprising chapter in store before the final victory."
         ]}
     ]
 },
 {
-    id:"dbz5", era:"dbz", title:"Il Torneo dell'Aldilà", subtitle:"Other World Saga (interamente filler, con Re Kaio)",
+    id:"dbz5", era:"dbz", title:"The Other World Tournament", subtitle:"Other World Saga (entirely filler, with King Kai)",
     icon:"halo", range:"195–207", total:13, filler:13, fillerNote:"100% filler",
-    characters:["Goku","Re Kaio","Pikkon"],
+    characters:["Goku","King Kai","Pikkon"],
     sections:[
-        {heading:"La scelta di restare morto",
+        {heading:"The choice to stay dead",
         paragraphs:[
-            "Morto per salvare la Terra dall'autodistruzione di Cell, Goku sceglie di restare nell'aldilà invece di tornare in vita con le Sfere del Drago, convinto che la propria presenza continui ad attirare minacce sul pianeta. È una decisione che sorprende amici e famiglia, e che definisce ulteriormente il carattere quasi incosciente del protagonista.",
-            "In attesa che si presenti un'occasione per tornare, Goku decide di sfruttare il tempo a disposizione allenandosi e partecipando alla vita dell'Altro Mondo, scoprendo che anche la morte, in Dragon Ball, riserva le sue avventure."
+            "Having died saving Earth from Cell's self-destruction, Goku chooses to remain in the afterlife instead of returning with the Dragon Balls, convinced his presence keeps drawing threats to the planet. It's a decision that surprises friends and family and further defines the protagonist's almost reckless character.",
+            "While waiting for a chance to return, Goku decides to make use of his time by training and taking part in life in the Other World, finding that even death, in Dragon Ball, has its adventures."
         ]},
-        {heading:"Il Torneo di Re Kaio",
+        {heading:"King Kai's Tournament",
         paragraphs:[
-            "Partecipa così al Torneo dell'Altro Mondo organizzato da Re Kaio, un evento leggero e a tratti comico che raccoglie i più grandi combattenti scomparsi della storia dell'universo, tra regole bizzarre e un pubblico fatto di anime e divinità minori.",
-            "Interamente originale per l'anime e priva di ogni corrispondenza nel manga, questa saga funge da parentesi più rilassata dopo la tensione dei Giochi di Cell, esplorando il lato bizzarro e fiabesco dell'aldilà di Dragon Ball."
+            "He takes part in the Other World Tournament organized by King Kai, a lighthearted and at times comic event that gathers the greatest departed fighters in the history of the universe, with bizarre rules and an audience of souls and minor deities.",
+            "Entirely original to the anime and with no counterpart in the manga, this saga works as a more relaxed interlude after the tension of the Cell Games, exploring the bizarre, fairy-tale side of Dragon Ball's afterlife."
         ]},
-        {heading:"Pikkon, il rivale dell'Altro Mondo",
+        {heading:"Pikkon, the Other World rival",
         paragraphs:[
-            "Tra gli avversari spicca Pikkon, guerriero dell'Altro Mondo Occidentale dal carattere altezzoso ma dal potere straordinario, che regala a Goku uno degli scontri più intensi mai visti in un contesto \"amichevole\", spingendolo a usare tecniche mai mostrate prima, come il Kaiō-ken combinato al Super Saiyan.",
-            "Il torneo si interrompe bruscamente quando Goku scopre che sulla Terra sta per tornare una minaccia enorme: Babidi, un mago capace di risvegliare Majin Bu. Da qui in poi Goku otterrà finalmente il permesso di tornare sul pianeta per un solo giorno, dando il via al capitolo successivo."
+            "Among his opponents, Pikkon stands out: a West Other World warrior with a haughty manner and extraordinary power, who gives Goku one of the most intense fights ever seen in a \"friendly\" setting, pushing him to use techniques never shown before, such as Kaio-ken combined with Super Saiyan.",
+            "The tournament comes to an abrupt end when Goku learns that a huge threat is about to return to Earth: Babidi, a wizard able to awaken Majin Buu. From here on, Goku will finally get permission to return to the planet for a single day, setting off the next chapter."
         ]}
     ]
 },
 {
-    id:"dbz6", era:"dbz", title:"Il Guerriero Saiyaman", subtitle:"Great Saiyaman Saga & 25° Torneo Tenkaichi",
+    id:"dbz6", era:"dbz", title:"The Great Saiyaman", subtitle:"Great Saiyaman Saga & 25th Tenkaichi Tournament",
     icon:"sun", range:"208–232", total:25, filler:10, fillerNote:null,
     characters:["Gohan","Videl","Goten","Trunks"],
     sections:[
-        {heading:"Sette anni dopo",
+        {heading:"Seven years later",
         paragraphs:[
-            "Sette anni dopo la sconfitta di Cell, la Terra vive un periodo di pace insolito. Gohan, ormai adolescente, inizia la scuola superiore conducendo una doppia vita da studente modello e da supereroe mascherato, il goffo ma sincero Great Saiyaman, per proteggere la città senza rivelare la propria identità.",
-            "Il tono della saga, molto più leggero rispetto al resto della serie, mostra un lato quasi da commedia scolastica, con Gohan alle prese con interrogazioni, compagni di classe e i primi imbarazzi adolescenziali."
+            "Seven years after Cell's defeat, Earth enjoys an unusual period of peace. Gohan, now a teenager, starts high school and leads a double life as a model student and a masked superhero, the clumsy but sincere Great Saiyaman, protecting the city without revealing his identity.",
+            "The saga's tone, much lighter than the rest of the series, shows an almost school-comedy side, with Gohan dealing with tests, classmates and his first teenage embarrassments."
         ]},
-        {heading:"Videl e i nuovi amici",
+        {heading:"Videl and the new friends",
         paragraphs:[
-            "L'incontro con Videl, figlia del campione mondiale Hercule e determinata quanto testarda, porta scompiglio nella vita di Gohan, che finisce per allenarla al volo e alle arti marziali dopo che lei scopre parte della sua identità segreta.",
-            "Gohan stringe amicizia anche con nuovi compagni come Goten, il fratello minore mai conosciuto da Goku, e un Trunks bambino altrettanto vivace, entrambi già capaci di trasformarsi in Super Saiyan quasi per gioco."
+            "Meeting Videl, the determined and stubborn daughter of world champion Hercule, turns Gohan's life upside down, and he ends up teaching her to fly and training her in martial arts after she discovers part of his secret identity.",
+            "Gohan also befriends new companions such as Goten, the younger brother Goku never knew, and an equally lively young Trunks, both already able to turn Super Saiyan almost as a game."
         ]},
-        {heading:"Il 25° Torneo Tenkaichi",
+        {heading:"The 25th Tenkaichi Tournament",
         paragraphs:[
-            "L'arco culmina nel 25° Torneo Tenkaichi, un evento più leggero e scanzonato rispetto ai precedenti, dove la nuova generazione di guerrieri — Goten, Trunks e Videl — mostra al mondo di che pasta è fatta, tra combinazioni comiche e la rivelazione, semiseria, dei veri poteri della famiglia Son.",
-            "Dietro il tono spensierato si nasconde però una minaccia crescente: nell'ombra del torneo, un mago di nome Babidi osserva i combattenti più forti per scegliere il proprio prescelto, ponendo le basi silenziose per la tempesta che sta per abbattersi sulla Terra."
+            "The arc culminates in the 25th Tenkaichi Tournament, a lighter and more carefree event than the previous ones, where the new generation of warriors (Goten, Trunks and Videl) shows the world what they are made of, with comic combinations and the half-serious revelation of the Son family's true powers.",
+            "Behind the carefree tone, however, a growing threat is hiding: in the shadow of the tournament, a wizard named Babidi watches the strongest fighters to choose his champion, silently laying the groundwork for the storm about to hit Earth."
         ]}
     ]
 },
 {
-    id:"dbz7", era:"dbz", title:"La Furia di Majin Bu", subtitle:"Babidi, Majin Bu, Fusione & Kid Bu",
+    id:"dbz7", era:"dbz", title:"The Fury of Majin Buu", subtitle:"Babidi, Majin Buu, Fusion & Kid Buu",
     icon:"mask", range:"233–291", total:59, filler:8, fillerNote:null,
-    characters:["Goku","Vegeta","Gohan","Majin Bu","Goten","Trunks"],
+    characters:["Goku","Vegeta","Gohan","Majin Buu","Goten","Trunks"],
     sections:[
-        {heading:"Il risveglio di Majin Bu",
+        {heading:"The awakening of Majin Buu",
         paragraphs:[
-            "Il mago Babidi risveglia Majin Bu, creatura di pura energia sigillata millenni prima dal saggio Bibidi, capace di rigenerarsi da qualunque ferita e di trasformare i propri nemici in caramelle o biscotti con un solo tocco, per poi divorarli con noncuranza infantile.",
-            "L'annuncio del suo risveglio semina il panico tra i guerrieri Z, consapevoli che nessuna trasformazione vista fino a quel momento garantisce automaticamente la vittoria contro un essere praticamente impossibile da uccidere in modo definitivo."
+            "The wizard Babidi awakens Majin Buu, a creature of pure energy sealed away millennia earlier by the sage Bibidi, able to regenerate from any wound and to turn his enemies into candy or cookies with a single touch, then devour them with childlike indifference.",
+            "News of his awakening spreads panic among the Z Fighters, who know that no transformation seen so far automatically guarantees victory against a being practically impossible to kill for good."
         ]},
-        {heading:"La corruzione di Vegeta",
+        {heading:"Vegeta's corruption",
         paragraphs:[
-            "Vegeta, roso dall'orgoglio e frustrato dall'essere sempre un passo indietro rispetto a Goku, si lascia corrompere dalla magia di Babidi pur di ottenere un potere sufficiente a superare finalmente il rivale, arrivando a sacrificare parte della propria umanità per un duello che considera più importante della salvezza del pianeta.",
-            "Il suo scontro con Goku, combattuto quasi in un contesto privato lontano dagli altri, è tra i più intensi e psicologicamente carichi dell'intera serie, e culmina in un sacrificio che ridefinisce per sempre il personaggio."
+            "Consumed by pride and frustrated at always being one step behind Goku, Vegeta lets himself be corrupted by Babidi's magic to gain enough power to finally surpass his rival, going so far as to sacrifice part of his humanity for a duel he considers more important than saving the planet.",
+            "His fight with Goku, fought almost in private, far from the others, is among the most intense and psychologically charged of the entire series, and it culminates in a sacrifice that redefines the character forever."
         ]},
-        {heading:"La Fusione",
+        {heading:"Fusion",
         paragraphs:[
-            "La battaglia contro Bu costringe l'intera famiglia Son a superarsi: Goten e Trunks apprendono la Fusione, la tecnica definitiva che unisce due guerrieri in uno solo per un tempo limitato tramite una danza coreografica precisa al millimetro, dando vita al potentissimo ma capriccioso Gotenks.",
-            "Nel frattempo Gohan, allenato dall'antico Anziano Kaiō sul pianeta sacro dei namecciani, sblocca infine il suo Potenziale Nascosto, raggiungendo un livello di potere che sorprende persino lui stesso."
+            "The battle against Buu forces the whole Son family to surpass itself: Goten and Trunks learn Fusion, the ultimate technique that merges two warriors into one for a limited time through a precisely choreographed dance, giving rise to the mighty but capricious Gotenks.",
+            "Meanwhile Gohan, trained by the ancient Elder Kai on the Namekians' sacred planet, finally unlocks his Hidden Potential, reaching a level of power that surprises even him."
         ]},
-        {heading:"Bu Kid, la distruzione allo stato puro",
+        {heading:"Kid Buu, pure destruction",
         paragraphs:[
-            "Ma Bu è un nemico in continua evoluzione: ogni sconfitta lo fa mutare in versioni sempre più semplici e sempre più letali, fino a spogliarsi di ogni residuo di bontà e rivelare la propria forma originale, Bu Kid, pura distruzione senza filtri né inganni, capace di distruggere pianeti interi per puro divertimento.",
-            "La sua furia costringe i sopravvissuti a rifugiarsi sul pianeta di Kaiō, mentre la Terra viene ridotta in macerie in una delle sequenze più devastanti mai mostrate nella serie."
+            "But Buu is an ever-evolving enemy: each defeat makes him mutate into simpler and deadlier versions, until he sheds every trace of goodness and reveals his original form, Kid Buu, pure destruction with no filters or tricks, able to destroy entire planets for pure fun.",
+            "His fury forces the survivors to take refuge on King Kai's planet, while Earth is reduced to rubble in one of the most devastating sequences ever shown in the series."
         ]},
-        {heading:"La Genkidama finale",
+        {heading:"The final Spirit Bomb",
         paragraphs:[
-            "Nello scontro finale, Goku ricorre alla Genkidama, energia donata da ogni essere vivente dell'universo, in un climax che coinvolge letteralmente ogni angolo della galassia e richiede l'aiuto di Hercule, il campione mondiale, per convincere l'umanità intera a partecipare.",
-            "La vittoria chiude non solo la saga di Bu, ma l'intera storia di Dragon Ball Z, mostrando un salto temporale di dieci anni con una nuova generazione pronta a raccogliere il testimone, e aprendo la strada, anni dopo, a un nuovo torneo e a un nuovo dio."
+            "In the final battle, Goku turns to the Spirit Bomb, energy given by every living being in the universe, in a climax that literally reaches every corner of the galaxy and requires the help of world champion Hercule to convince all of humanity to take part.",
+            "The victory closes not only the Buu saga but the entire story of Dragon Ball Z, showing a ten-year time skip with a new generation ready to take up the torch, and paving the way, years later, for a new tournament and a new god."
         ]}
     ]
 },
 {
-    id:"super1", era:"super", title:"La Battaglia degli Dei", subtitle:"Battle of Gods Saga",
-    icon:"deity", range:"1–14", total:14, filler:null, fillerNote:"pochi episodi, per lo più materiale anime originale",
+    id:"super1", era:"super", title:"Battle of the Gods", subtitle:"Battle of Gods Saga",
+    icon:"deity", range:"1–14", total:14, filler:null, fillerNote:"few episodes, mostly original anime material",
     characters:["Goku","Beerus","Whis","Vegeta"],
     sections:[
-        {heading:"Il sogno di Beerus",
+        {heading:"Beerus's dream",
         paragraphs:[
-            "Dieci anni dopo la sconfitta di Bu, un nuovo tipo di minaccia si presenta: non un conquistatore, ma un Dio della Distruzione. Beerus, entità cosmica dai poteri incommensurabili e dal carattere capriccioso, si risveglia da un lungo sonno in cerca del leggendario Super Saiyan degli Dei, di cui ha sognato, per sfidarlo in battaglia.",
-            "Il suo ruolo cosmico, mantenere l'equilibrio dell'universo distruggendo ciò che minaccia di squilibrarlo, lo rende un personaggio moralmente ambiguo: non malvagio in senso tradizionale, ma imprevedibile e potenzialmente letale per chiunque lo infastidisca."
+            "Ten years after Buu's defeat, a new kind of threat appears: not a conqueror, but a God of Destruction. Beerus, a cosmic entity of immeasurable power and capricious temperament, wakes from a long sleep in search of the legendary Super Saiyan God he has dreamed about, to challenge him to battle.",
+            "His cosmic role, maintaining the balance of the universe by destroying what threatens to upset it, makes him a morally ambiguous character: not evil in the traditional sense, but unpredictable and potentially lethal to anyone who annoys him."
         ]},
-        {heading:"Whis e il tour degli dei",
+        {heading:"Whis and the gods' tour",
         paragraphs:[
-            "Al suo fianco l'angelo Whis, custode ed educatore dal potere ancora superiore a quello del suo stesso allievo, accompagna Beerus in un tour tra i pianeti in cerca di questo avversario, seminando terrore ovunque passi con la sua estrema suscettibilità: basta irritarlo per rischiare la distruzione di un intero pianeta.",
-            "Il loro rapporto, fatto di battute pungenti e rispetto reciproco, introduce per la prima volta il tono più comico e leggero che caratterizzerà gran parte di Dragon Ball Super."
+            "At his side is the angel Whis, a guardian and teacher with even greater power than his own pupil, who accompanies Beerus on a tour of the planets in search of this opponent, spreading terror wherever they go with Beerus's extreme touchiness: irritating him is enough to risk the destruction of an entire planet.",
+            "Their relationship, full of sharp banter and mutual respect, introduces for the first time the more comic and lighthearted tone that will define much of Dragon Ball Super."
         ]},
-        {heading:"Il compleanno di Bulma",
+        {heading:"Bulma's birthday",
         paragraphs:[
-            "Quando Beerus raggiunge la Terra durante il compleanno di Bulma, Goku — richiamato dall'aldilà per l'occasione grazie alle Sfere del Drago — accetta la sfida senza esitazione, ignaro del reale divario di potere che lo separa dal Dio della Distruzione.",
-            "La festa, con la partecipazione di praticamente ogni personaggio storico della serie, offre anche un momento raro di leggerezza corale prima dello scontro decisivo."
+            "When Beerus reaches Earth during Bulma's birthday party, Goku, called back from the afterlife for the occasion thanks to the Dragon Balls, accepts the challenge without hesitation, unaware of the real gap in power that separates him from the God of Destruction.",
+            "The party, attended by practically every classic character in the series, also offers a rare moment of ensemble fun before the decisive battle."
         ]},
-        {heading:"Il Super Saiyan Dio",
+        {heading:"The Super Saiyan God",
         paragraphs:[
-            "Nonostante l'aiuto rituale di cinque guerrieri Saiyan puri di cuore per creare temporaneamente il Super Saiyan Dio, forma capace di attingere all'energia degli dèi, lo scontro dimostra quanto il divario di potere sia ancora enorme, e solo un gesto imprevisto di Beerus stesso evita una tragedia.",
-            "È l'inizio di una nuova era per la serie: dopo Bu, per la prima volta Dragon Ball introduce una gerarchia cosmica fatta di dèi, universi e regole mai esplorate prima, e pone le basi per l'ambizione che caratterizzerà tutta Dragon Ball Super."
+            "Despite the ritual help of five pure-hearted Saiyans to temporarily create the Super Saiyan God, a form able to tap into the energy of the gods, the fight shows how enormous the power gap still is, and only an unexpected gesture by Beerus himself averts tragedy.",
+            "It is the start of a new era for the series: after Buu, for the first time Dragon Ball introduces a cosmic hierarchy of gods, universes and rules never explored before, laying the groundwork for the ambition that will define all of Dragon Ball Super."
         ]}
     ]
 },
 {
-    id:"super2", era:"super", title:"La Resurrezione di 'F'", subtitle:"Resurrection 'F' Saga",
-    icon:"machine", range:"15–27", total:13, filler:null, fillerNote:"pochissimi episodi filler",
-    characters:["Goku","Vegeta","Freezer","Sorbet"],
+    id:"super2", era:"super", title:"The Resurrection of 'F'", subtitle:"Resurrection 'F' Saga",
+    icon:"machine", range:"15–27", total:13, filler:null, fillerNote:"very few filler episodes",
+    characters:["Goku","Vegeta","Frieza","Sorbet"],
     sections:[
-        {heading:"I resti di Freezer",
+        {heading:"Frieza's remains",
         paragraphs:[
-            "I resti sparsi di Freezer, distrutto anni prima su Namek, vengono raccolti dai suoi fedeli soldati, convinti che con le Sfere del Drago sia possibile riportarlo in vita. Il desiderio viene esaudito, e un Freezer rinato per la vendetta decide, per la prima volta nella sua vita, di allenarsi sul serio dopo secoli di arroganza basata sul solo talento innato.",
-            "Il fatto stesso che un tiranno abituato a vincere senza sforzo scelga di sudare per diventare più forte racconta quanto profonda sia l'umiliazione subita su Namek."
+            "The scattered remains of Frieza, destroyed years earlier on Namek, are gathered by his loyal soldiers, convinced that the Dragon Balls can bring him back to life. The wish is granted, and a Frieza reborn for revenge decides, for the first time in his life, to train seriously after centuries of arrogance built on innate talent alone.",
+            "The very fact that a tyrant used to winning without effort chooses to sweat to get stronger shows how deep the humiliation he suffered on Namek runs."
         ]},
-        {heading:"L'attacco a sorpresa",
+        {heading:"The surprise attack",
         paragraphs:[
-            "Determinato a colpire dove fa più male, Freezer raduna un intero esercito e attacca la Terra in un momento di apparente tranquillità, colpendo di sorpresa i guerrieri Z prima ancora che possano reagire, in una delle sequenze più crudeli e spiazzanti della serie, con diversi alleati storici feriti o uccisi in pochi minuti.",
-            "La freddezza con cui Freezer orchestra la vendetta, senza fretta e godendo di ogni momento, ne conferma la natura di villain puro, in contrasto con le sfumature più ambigue dei nemici incontrati negli anni successivi."
+            "Determined to strike where it hurts most, Frieza gathers an entire army and attacks Earth at a moment of apparent calm, catching the Z Fighters by surprise before they can react, in one of the cruelest and most unsettling sequences of the series, with several longtime allies wounded or killed within minutes.",
+            "The coldness with which Frieza orchestrates his revenge, unhurried and savoring every moment, confirms his nature as a pure villain, in contrast with the more ambiguous shades of the enemies met in later years."
         ]},
-        {heading:"Golden Freezer",
+        {heading:"Golden Frieza",
         paragraphs:[
-            "Quando Goku e Vegeta arrivano, Freezer rivela una nuova trasformazione dorata, frutto del suo allenamento, capace di generare potenza sufficiente a competere quasi alla pari con due Super Saiyan Blue, ribaltando ogni aspettativa sul divario di forza tra lui e i suoi vecchi nemici.",
-            "Solo l'intervento provvidenziale di Whis, che rallenta il tempo per permettere ai due Saiyan di recuperare dalle ferite subite, ribalta le sorti dello scontro proprio negli ultimi istanti."
+            "When Goku and Vegeta arrive, Frieza reveals a new golden transformation, the fruit of his training, generating enough power to compete almost as an equal with two Super Saiyan Blues, overturning every expectation about the gap in strength between him and his old enemies.",
+            "Only the timely intervention of Whis, who slows time to let the two Saiyans recover from their wounds, reverses the outcome of the fight in its final moments."
         ]},
-        {heading:"Un nuovo inizio tra gli universi",
+        {heading:"A new start among the universes",
         paragraphs:[
-            "La battaglia si chiude con la distruzione definitiva del pianeta e la sconfitta di Freezer, ma segna anche l'inizio di una nuova fase per la serie: Goku, incuriosito dal Dio della Distruzione Champa, fratello gemello di Beerus, propone un incontro amichevole tra i loro rispettivi universi.",
-            "Questa proposta, apparentemente innocua, darà il via a una serie di tornei che cambieranno per sempre la scala e l'ambizione dell'intera saga di Dragon Ball Super."
+            "The battle ends with the final destruction of the planet and Frieza's defeat, but it also marks the start of a new phase for the series: Goku, intrigued by the God of Destruction Champa, Beerus's twin brother, proposes a friendly match between their respective universes.",
+            "This apparently harmless proposal will set off a series of tournaments that will change forever the scale and ambition of the entire Dragon Ball Super saga."
         ]}
     ]
 },
 {
-    id:"super3", era:"super", title:"La Sfida dell'Universo 6", subtitle:"Universe 6 Saga",
-    icon:"twin", range:"28–46", total:19, filler:null, fillerNote:"pochissimi episodi filler",
+    id:"super3", era:"super", title:"The Universe 6 Challenge", subtitle:"Universe 6 Saga",
+    icon:"twin", range:"28–46", total:19, filler:null, fillerNote:"very few filler episodes",
     characters:["Goku","Vegeta","Cabba","Hit"],
     sections:[
-        {heading:"Champa e Vados",
+        {heading:"Champa and Vados",
         paragraphs:[
-            "Champa, Dio della Distruzione dell'Universo 6 e fratello gemello di Beerus, propone un torneo amichevole tra dieci guerrieri per universo, con in palio le Super Sfere del Drago capaci di esaudire qualsiasi desiderio, comprese richieste impossibili nel proprio universo di origine.",
-            "È il primo vero contatto approfondito tra l'Universo 7 di Goku e un universo parallelo con la propria storia, i propri eroi e persino una propria versione, capovolta, dei pianeti già noti."
+            "Champa, God of Destruction of Universe 6 and Beerus's twin brother, proposes a friendly tournament between ten warriors per universe, with the Super Dragon Balls as the prize, able to grant any wish, including requests that are impossible in their own universe.",
+            "It is the first real in-depth contact between Goku's Universe 7 and a parallel universe with its own history, its own heroes and even its own mirrored version of known planets."
         ]},
-        {heading:"Cabba, il Saiyan sopravvissuto",
+        {heading:"Cabba, the surviving Saiyan",
         paragraphs:[
-            "Tra i guerrieri dell'Universo 6 spicca Cabba, un giovane Saiyan sopravvissuto in una linea temporale dove il pianeta natale non fu mai distrutto: il suo incontro con Vegeta, che diventa per lui un mentore inaspettato, offre uno sguardo toccante su cosa sarebbe potuto essere il popolo Saiyan senza Freezer.",
-            "L'emozione di Vegeta nel ritrovare, seppur in un universo diverso, un frammento della propria cultura perduta aggiunge una profondità rara in un arco altrimenti dominato dai combattimenti."
+            "Among the Universe 6 warriors, Cabba stands out: a young Saiyan who survived in a timeline where the home planet was never destroyed. His meeting with Vegeta, who becomes an unexpected mentor to him, offers a moving look at what the Saiyan people might have been without Frieza.",
+            "Vegeta's emotion at finding, even in a different universe, a fragment of his lost culture adds a rare depth to an arc otherwise dominated by fighting."
         ]},
-        {heading:"Hit, il sicario del tempo",
+        {heading:"Hit, the assassin of time",
         paragraphs:[
-            "Il torneo introduce anche Hit, un sicario leggendario capace di manipolare il tempo con una tecnica quasi impossibile da contrastare, che regala a Goku uno degli scontri più tattici e frustranti della sua carriera, costringendolo a inventare contromisure sul momento senza alcun allenamento specifico.",
-            "Il duello, giocato più sull'intelligenza che sulla forza bruta, rappresenta uno dei momenti più originali della saga."
+            "The tournament also introduces Hit, a legendary assassin able to manipulate time with a technique almost impossible to counter, who gives Goku one of the most tactical and frustrating fights of his career, forcing him to invent countermeasures on the spot without any specific training.",
+            "The duel, based more on intelligence than on brute force, is one of the most original moments of the saga."
         ]},
-        {heading:"Un finale a sorpresa",
+        {heading:"A surprise ending",
         paragraphs:[
-            "Alla fine il torneo si conclude con un finale a sorpresa che lascia l'Universo 6 senza vincitore ufficiale ma con nuove alleanze nate sul campo, e pianta il seme di una domanda inquietante: se gli universi possono competere per gioco, cosa succederebbe se lo facessero per sopravvivere?",
-            "Quella domanda, lasciata volutamente in sospeso, diventerà il fulcro dell'intera seconda metà di Dragon Ball Super."
+            "In the end the tournament closes with a surprise finish that leaves Universe 6 without an official winner but with new alliances born on the field, planting the seed of a disturbing question: if universes can compete for fun, what would happen if they did so to survive?",
+            "That question, deliberately left open, will become the core of the entire second half of Dragon Ball Super."
         ]}
     ]
 },
 {
-    id:"super4", era:"super", title:"Trunks del Futuro", subtitle:"Future Trunks Saga (Goku Black & Zamasu)",
-    icon:"storm", range:"47–76", total:30, filler:null, fillerNote:"pochissimi episodi filler",
+    id:"super4", era:"super", title:"Future Trunks", subtitle:"Future Trunks Saga (Goku Black & Zamasu)",
+    icon:"storm", range:"47–76", total:30, filler:null, fillerNote:"very few filler episodes",
     characters:["Trunks","Goku Black","Zamasu","Vegeta"],
     sections:[
-        {heading:"Un futuro devastato",
+        {heading:"A devastated future",
         paragraphs:[
-            "Un Trunks ormai adulto torna dal futuro devastato in cui vive, in cerca disperata di aiuto: una nuova minaccia, identica a Goku ma dall'anima nera come la notte, sta sterminando l'umanità pianeta dopo pianeta senza pietà né spiegazioni apparenti.",
-            "Il suo nome è Goku Black, e il suo odio per i mortali sembra incomprensibile: nessuna delle motivazioni tipiche dei villain precedenti — potere, vendetta, conquista — sembra applicarsi a lui, rendendolo ancora più inquietante."
+            "A now adult Trunks returns from the devastated future he lives in, desperately seeking help: a new threat, identical to Goku but with a soul as black as night, is exterminating humanity planet after planet without mercy or apparent explanation.",
+            "His name is Goku Black, and his hatred of mortals seems incomprehensible: none of the typical motives of earlier villains (power, revenge, conquest) seem to apply to him, making him even more disturbing."
         ]},
-        {heading:"Chi è davvero Goku Black",
+        {heading:"Who Goku Black really is",
         paragraphs:[
-            "La verità che emerge è agghiacciante: Black è in realtà Zamasu, un apprendista Kaiō convinto che gli dèi debbano eliminare l'umanità corrotta per salvare l'universo, che ha rubato il corpo di Goku tramite gli Anelli del Tempo dopo essersi impossessato della tecnica dello Scambio dei Corpi.",
-            "La sua ideologia, per quanto estrema, nasce da un'osservazione sincera (seppur distorta) della crudeltà mortale, rendendolo uno degli antagonisti più filosoficamente complessi della serie."
+            "The truth that emerges is chilling: Black is actually Zamasu, an apprentice Kai convinced the gods must eliminate corrupt humanity to save the universe, who stole Goku's body through the Time Rings after seizing the Body Change technique.",
+            "His ideology, however extreme, comes from a sincere (if distorted) observation of mortal cruelty, making him one of the most philosophically complex antagonists of the series."
         ]},
-        {heading:"Linee temporali e la fusione dei due Zamasu",
+        {heading:"Timelines and the fusion of the two Zamasus",
         paragraphs:[
-            "La sua alleanza con una versione alternativa di se stesso, proveniente da un'altra linea temporale, crea un nemico capace di rigenerarsi all'infinito grazie all'immortalità concessa dagli dèi Kaiō. Tra viaggi nel tempo e linee temporali multiple, la saga esplora i temi più oscuri e filosofici mai affrontati dalla serie.",
-            "La fusione dei due Zamasu in un'entità quasi immortale che si autodefinisce \"Zamasu Fuso\", capace di espandersi fino a fondersi con l'universo stesso, porta la minaccia a una scala mai vista prima, ponendo domande scomode su cosa significhi davvero la giustizia."
+            "His alliance with an alternate version of himself from another timeline creates an enemy able to regenerate endlessly thanks to the immortality granted by the Kai gods. Through time travel and multiple timelines, the saga explores the darkest and most philosophical themes the series has ever tackled.",
+            "The fusion of the two Zamasus into an almost immortal entity calling itself \"Fused Zamasu\", able to expand until he merges with the universe itself, brings the threat to an unprecedented scale, raising uncomfortable questions about what justice really means."
         ]},
-        {heading:"L'intervento di Zeno",
+        {heading:"Zeno's intervention",
         paragraphs:[
-            "Solo un intervento estremo, l'annullamento dell'intera linea temporale da parte di Zeno Sama, il Re di Tutto, riesce a porre fine alla minaccia, mostrando per la prima volta un potere superiore persino a quello degli dèi della distruzione.",
-            "L'apparizione di Zeno ridefinisce per sempre gli equilibri di potere dell'intera cosmologia della serie, introducendo un'entità la cui sola parola può cancellare interi universi con un capriccio, e ponendo le basi per l'arco successivo."
+            "Only an extreme intervention, the erasure of the entire timeline by Zeno, the King of All, manages to end the threat, showing for the first time a power greater even than that of the gods of destruction.",
+            "Zeno's appearance forever redefines the balance of power across the series' entire cosmology, introducing an entity whose word alone can erase whole universes on a whim, and setting the stage for the next arc."
         ]}
     ]
 },
 {
-    id:"super5", era:"super", title:"Il Torneo del Potere", subtitle:"Universe Survival Saga (Sopravvivenza dell'Universo)",
-    icon:"grid", range:"77–131", total:55, filler:null, fillerNote:"pochissimi episodi filler",
-    characters:["Goku","Vegeta","Freezer","Jiren","Gohan","Androide 17"],
+    id:"super5", era:"super", title:"The Tournament of Power", subtitle:"Universe Survival Saga",
+    icon:"grid", range:"77–131", total:55, filler:null, fillerNote:"very few filler episodes",
+    characters:["Goku","Vegeta","Frieza","Jiren","Gohan","Android 17"],
     sections:[
-        {heading:"La decisione di Zeno",
+        {heading:"Zeno's decision",
         paragraphs:[
-            "Zeno Sama, il Re di Tutto, decide di ripulire il multiverso: gli otto universi ancora esistenti si sfideranno in un torneo a squadre di dieci guerrieri ciascuno, il Torneo del Potere. Gli universi delle squadre perdenti verranno cancellati dall'esistenza, trasformando quello che poteva essere un semplice gioco nella posta in gioco più alta mai vista nella serie.",
-            "La notizia scatena il panico tra i vari Dei della Distruzione, costretti a reclutare in fretta i guerrieri più forti dei rispettivi universi per evitare l'annientamento totale."
+            "Zeno, the King of All, decides to clean up the multiverse: the eight remaining universes will face off in a team tournament of ten warriors each, the Tournament of Power. The universes of the losing teams will be erased from existence, turning what could have been a simple game into the highest stakes ever seen in the series.",
+            "The news spreads panic among the Gods of Destruction, who are forced to quickly recruit the strongest warriors of their universes to avoid total annihilation."
         ]},
-        {heading:"La squadra dell'Universo 7",
+        {heading:"The Universe 7 team",
         paragraphs:[
-            "Goku recluta una squadra eterogenea di alleati vecchi e nuovi — tra cui, a sorpresa, Freezer stesso, resuscitato temporaneamente per l'occasione in cambio della sua collaborazione, un'alleanza impensabile che dice molto su quanto la posta in gioco sia diventata seria.",
-            "Anche Gohan, Piccolo, Androide 17, Androide 18, Krillin, Tenshinhan e Tien si uniscono alla squadra, ciascuno con la propria motivazione personale per lottare fino alla fine."
+            "Goku recruits a mixed team of old and new allies, including, surprisingly, Frieza himself, temporarily revived for the occasion in exchange for his cooperation, an unthinkable alliance that says a lot about how serious the stakes have become.",
+            "Gohan, Piccolo, Android 17, Android 18, Krillin and Tien also join the team, each with a personal reason to fight to the end."
         ]},
-        {heading:"Gli avversari degli altri universi",
+        {heading:"Opponents from other universes",
         paragraphs:[
-            "Gli altri universi rivelano guerrieri straordinari: dai monaci del Decimo Universo ai combattenti misteriosi del Nono, passando per assassini, robot e creature aliene di ogni tipo, ognuno con stili di combattimento radicalmente diversi da quelli visti fino a quel momento.",
-            "La battaglia campale, che dura più giorni narrativi consecutivi, mette alla prova ogni personaggio della serie in combattimenti a eliminazione diretta, dove basta uscire dall'arena per essere eliminati definitivamente insieme al proprio universo."
+            "The other universes reveal extraordinary warriors: from the monks of the Tenth Universe to the mysterious fighters of the Ninth, along with assassins, robots and alien creatures of every kind, each with fighting styles radically different from anything seen so far.",
+            "The pitched battle, lasting several consecutive story days, puts every character of the series to the test in elimination fights, where simply falling out of the arena is enough to be knocked out for good along with your universe."
         ]},
-        {heading:"Jiren, il guerriero più forte",
+        {heading:"Jiren, the strongest warrior",
         paragraphs:[
-            "Tra tutti spicca il temibile Jiren, dell'Universo 11, considerato il guerriero mortale più forte di sempre: un combattente silenzioso, disciplinato e apparentemente privo di debolezze, capace di respingere Goku e Vegeta contemporaneamente senza il minimo sforzo apparente.",
-            "Androide 17, sottovalutato da molti, dimostra un'astuzia sorprendente restando in gara più a lungo di quanto chiunque si aspettasse, mentre Gohan sblocca ulteriormente il proprio potenziale in uno degli ultimi grandi momenti da protagonista del personaggio."
+            "Above them all stands the fearsome Jiren of Universe 11, considered the strongest mortal warrior of all time: a silent, disciplined fighter, apparently without weaknesses, able to repel Goku and Vegeta at once with no apparent effort.",
+            "Android 17, underestimated by many, shows surprising cunning by staying in the contest longer than anyone expected, while Gohan further unlocks his potential in one of the character's last great moments in the spotlight."
         ]},
-        {heading:"L'Ultra Istinto",
+        {heading:"Ultra Instinct",
         paragraphs:[
-            "Goku, spinto all'estremo proprio da Jiren, raggiunge per la prima volta l'Ultra Istinto, la forma definitiva capace di muovere il corpo senza il minimo pensiero cosciente, reagendo istintivamente a ogni attacco con una precisione sovrumana.",
-            "Il torneo si chiude con un finale a sorpresa che salva tutti gli universi partecipanti grazie a un desiderio espresso con le Super Sfere del Drago, ma lascia un segno indelebile: per la prima volta la vittoria non è solo questione di pugni, ma di sacrificio, strategia e alleanze tra ex nemici."
+            "Pushed to the limit by Jiren himself, Goku reaches Ultra Instinct for the first time, the ultimate form that moves the body without a single conscious thought, reacting instinctively to every attack with superhuman precision.",
+            "The tournament ends with a surprise finale that saves all the participating universes thanks to a wish made with the Super Dragon Balls, but it leaves an indelible mark: for the first time victory isn't only a matter of fists, but of sacrifice, strategy and alliances between former enemies."
         ]}
     ]
 },
 {
-    id:"gt1", era:"gt", title:"Le Sfere Nere del Destino", subtitle:"Black Star Dragon Ball Saga",
-    icon:"star", range:"1–22", total:22, filler:null, fillerNote:"produzione anime originale, senza fonte manga",
+    id:"gt1", era:"gt", title:"The Black Balls of Fate", subtitle:"Black Star Dragon Ball Saga",
+    icon:"star", range:"1–22", total:22, filler:null, fillerNote:"original anime production, no manga source",
     characters:["Goku","Trunks","Pan","Pilaf"],
     sections:[
-        {heading:"Il desiderio sbagliato",
+        {heading:"The wrong wish",
         paragraphs:[
-            "Un desiderio espresso per errore da Pilaf, ancora ossessionato dal voler ridurre Goku alla sua forma più debole dopo decenni di umiliazioni, lo trasforma di nuovo in un bambino con un incantesimo capace di rimuovere gli effetti dell'invecchiamento, restituendogli il corpo che aveva all'inizio della serie originale.",
-            "Ma la vera sorpresa arriva quando si scopre che le Sfere del Drago Nere usate per esaudire quel desiderio si sono disperse in tutto l'universo, portando con sé una conseguenza catastrofica per l'intero pianeta."
+            "A wish made by mistake by Pilaf, still obsessed with reducing Goku to his weakest form after decades of humiliation, turns him back into a child with a spell able to undo the effects of aging, giving him the body he had at the start of the original series.",
+            "But the real surprise comes with the discovery that the Black Star Dragon Balls used to grant that wish have scattered across the universe, bringing a catastrophic consequence for the whole planet."
         ]},
-        {heading:"Un equipaggio insolito",
+        {heading:"An unusual crew",
         paragraphs:[
-            "Se non vengono ritrovate entro un anno, la Terra sarà condannata a esplodere. Goku, ormai bambino, parte insieme al nipote Pan, dotata di un carattere combattivo nonostante la giovane età, e a un più maturo Trunks a bordo di un'astronave spaziale, dando il via a un vero e proprio viaggio interstellare da pianeta a pianeta.",
-            "La dinamica tra i tre, un nonno bambino, una nipote testarda e un amico di famiglia ormai adulto, offre un registro comico e affettuoso mai visto prima in questa combinazione."
+            "If they aren't found within a year, Earth is doomed to explode. Goku, now a child, sets off with his granddaughter Pan, a fighter despite her young age, and a more mature Trunks aboard a spaceship, beginning a true interstellar journey from planet to planet.",
+            "The dynamic among the three, a child grandfather, a stubborn granddaughter and a now adult family friend, offers a comic, affectionate tone never seen before in this combination."
         ]},
-        {heading:"Pianeti e mostri lungo la rotta",
+        {heading:"Planets and monsters along the way",
         paragraphs:[
-            "Del tutto priva di fonte nel manga di Toriyama, che curò solo i design dei personaggi per questa serie, questa saga adotta un tono più leggero ed episodico, alternando pianeti bizzarri, mostri locali e combattimenti spesso più brevi rispetto agli standard di Z, ma con una vena di avventura spaziale quasi fantascientifica.",
-            "Ogni tappa del viaggio introduce culture aliene diverse, spesso con una morale di fondo o un colpo di scena locale, in uno stile più vicino a un'antologia episodica che a un arco narrativo continuo."
+            "With no source in Toriyama's manga, as he only handled the character designs for this series, this saga takes a lighter, more episodic tone, alternating bizarre planets, local monsters and fights often shorter than Z's standards, with a streak of almost sci-fi space adventure.",
+            "Each stop on the journey introduces different alien cultures, often with an underlying moral or a local twist, in a style closer to an episodic anthology than to a continuous story arc."
         ]},
-        {heading:"Il Pianeta Oscuro",
+        {heading:"The Dark Planet",
         paragraphs:[
-            "Il viaggio si conclude sul misterioso Pianeta Oscuro, dove viene rivelato che dietro la dispersione delle sfere si cela un piano ben più ambizioso, capace di collegare questa avventura apparentemente leggera a una minaccia molto più grande e personale per Goku e la sua stirpe.",
-            "Questo colpo di scena finale ribalta il tono spensierato dei primi episodi e apre la strada diretta alla saga successiva, molto più oscura e drammatica."
+            "The journey ends on the mysterious Dark Planet, where it is revealed that behind the scattering of the balls lies a far more ambitious plan, linking this apparently light adventure to a much greater and more personal threat to Goku and his family.",
+            "This final twist overturns the carefree tone of the first episodes and leads directly to the next saga, which is much darker and more dramatic."
         ]}
     ]
 },
 {
-    id:"gt2", era:"gt", title:"Baby, Super 17 e i Draghi Ombra", subtitle:"Baby Saga, Super 17 Saga & Shadow Dragon Saga",
-    icon:"vortex", range:"23–64", total:42, filler:null, fillerNote:"produzione anime originale, senza fonte manga",
+    id:"gt2", era:"gt", title:"Baby, Super 17 and the Shadow Dragons", subtitle:"Baby Saga, Super 17 Saga & Shadow Dragon Saga",
+    icon:"vortex", range:"23–64", total:42, filler:null, fillerNote:"original anime production, no manga source",
     characters:["Goku","Vegeta","Pan","Baby","Super 17"],
     sections:[
-        {heading:"Il parassita Tuffle",
+        {heading:"The Tuffle parasite",
         paragraphs:[
-            "Un parassita alieno di nome Baby, ultimo sopravvissuto del popolo Tuffle sterminato secoli prima dai Saiyan per il controllo del pianeta Plant, possiede i corpi degli abitanti della Terra uno dopo l'altro, incluso quello di Vegeta, in un piano di vendetta che minaccia di cancellare per sempre la stirpe Saiyan dall'universo.",
-            "La possessione di Vegeta, che lo trasforma temporaneamente in un nemico dei propri stessi alleati, offre uno dei conflitti interni più dolorosi della serie, con la famiglia costretta ad affrontare qualcuno che ama sotto le sembianze di un mostro."
+            "An alien parasite named Baby, the last survivor of the Tuffle people exterminated centuries earlier by the Saiyans for control of planet Plant, possesses the bodies of Earth's inhabitants one after another, including Vegeta's, in a plan of revenge that threatens to wipe the Saiyan line from the universe forever.",
+            "The possession of Vegeta, which temporarily turns him into an enemy of his own allies, offers one of the most painful internal conflicts of the series, with his family forced to face someone they love in the guise of a monster."
         ]},
         {heading:"Super 17",
         paragraphs:[
-            "Sconfitto Baby, il Dr. Gero e il suo assistente Myuu, entrambi risorti dall'Inferno grazie a un varco dimensionale, creano Super 17, la fusione definitiva tra l'Androide 17 originale e la sua controparte infernale: un nemico praticamente immortale, capace di rigenerarsi risucchiando energia direttamente dagli inferi.",
-            "Solo la collaborazione tra il vero Androide 17 e i guerrieri Z, uniti contro la propria copia corrotta, riesce a interrompere questo ciclo di rigenerazione apparentemente infinito."
+            "With Baby defeated, Dr. Gero and his assistant Dr. Myuu, both back from Hell through a dimensional rift, create Super 17, the ultimate fusion of the original Android 17 and his Hell counterpart: a practically immortal enemy, able to regenerate by draining energy directly from the underworld.",
+            "Only the cooperation of the real Android 17 and the Z Fighters, united against his corrupted copy, manages to break this apparently endless cycle of regeneration."
         ]},
-        {heading:"I Draghi Ombra",
+        {heading:"The Shadow Dragons",
         paragraphs:[
-            "L'arco conclusivo, il più oscuro dell'intero GT, si apre quando le Sfere del Drago, ormai troppo usate e corrotte da decenni di desideri, generano sette Draghi Ombra dalla loro stessa energia negativa: entità devastanti, ciascuna incarnazione di una singola stella della sfera originale, capaci di ridurre intere città in macerie con un solo respiro.",
-            "Ogni Drago Ombra rappresenta un aspetto diverso della corruzione, dal caos più distruttivo alla manipolazione più sottile, costringendo i protagonisti ad affrontarli uno per uno in tutto il mondo."
+            "The final arc, the darkest of all GT, opens when the Dragon Balls, overused and corrupted by decades of wishes, generate seven Shadow Dragons from their own negative energy: devastating entities, each embodying a single star of the original ball, able to reduce entire cities to rubble with a single breath.",
+            "Each Shadow Dragon represents a different aspect of corruption, from the most destructive chaos to the subtlest manipulation, forcing the heroes to face them one by one all over the world."
         ]},
-        {heading:"Il Super Saiyan 4 definitivo",
+        {heading:"The ultimate Super Saiyan 4",
         paragraphs:[
-            "Solo unendo le forze di tre generazioni della famiglia Son — Goku, Pan e persino un redento Vegeta — e grazie a una trasformazione mai vista prima, i guerrieri riescono a fermare l'ultimo e più potente dei Draghi Ombra, l'incarnazione stessa del Drago Eterno corrotto.",
-            "Il finale, malinconico e a sorpresa, chiude l'intera epoca di Dragon Ball GT con un salto temporale che mostra un futuro pacifico, suggellando il viaggio di Goku con un ultimo, toccante saluto ai suoi cari."
+            "Only by joining the strength of three generations of the Son family (Goku, Pan and even a redeemed Vegeta) and thanks to a transformation never seen before, do the warriors manage to stop the last and most powerful of the Shadow Dragons, the very embodiment of the corrupted Eternal Dragon.",
+            "The melancholy, surprising ending closes the entire era of Dragon Ball GT with a time skip showing a peaceful future, sealing Goku's journey with one last, moving farewell to his loved ones."
         ]}
     ]
 },
 {
-    id:"daima", era:"daima", title:"Il Regno Demoniaco", subtitle:"Dragon Ball Daima",
-    icon:"gate", range:"1–20", total:20, filler:null, fillerNote:"storia originale scritta da Akira Toriyama prima della sua scomparsa",
-    characters:["Goku","Vegeta","Majin Bu","Glorio"],
+    id:"daima", era:"daima", title:"The Demon Realm", subtitle:"Dragon Ball Daima",
+    icon:"gate", range:"1–20", total:20, filler:null, fillerNote:"original story written by Akira Toriyama before his death",
+    characters:["Goku","Vegeta","Majin Buu","Glorio"],
     sections:[
-        {heading:"Un errore vecchio di secoli",
+        {heading:"A centuries-old mistake",
         paragraphs:[
-            "Il Re dei Demoni Gomah, sovrano del Regno Demoniaco, scopre che secoli prima un intervento della Terra ha rimpicciolito per errore il proprio mondo, riducendolo a una frazione delle dimensioni originali, e per vendicarsi lancia un incantesimo capace di trasformare in bambini Goku e i suoi alleati più potenti.",
-            "L'incantesimo non riduce solo l'età anagrafica ma anche drasticamente la forza dei guerrieri coinvolti, sconvolgendo gli equilibri di potere raggiunti fino a quel momento e costringendo tutti a ripartire quasi da zero."
+            "The Demon King Gomah, ruler of the Demon Realm, discovers that centuries earlier an intervention from Earth mistakenly shrank his world to a fraction of its original size, and in revenge he casts a spell that turns Goku and his most powerful allies into children.",
+            "The spell reduces not only the age but also drastically the strength of the warriors involved, upsetting the balance of power reached so far and forcing everyone to start almost from scratch."
         ]},
-        {heading:"Rimpiccioliti ma non arresi",
+        {heading:"Shrunk but not beaten",
         paragraphs:[
-            "Rimpiccioliti ma non arresi, Goku, Vegeta, Bulma, Piccolo, Majin Bu e Oob intraprendono un viaggio verso il Regno Demoniaco stesso per scoprire la verità e trovare un modo per tornare normali, un'avventura corale che riporta insieme personaggi storici raramente visti collaborare tutti nello stesso arco.",
-            "Ad accompagnarli è Glorio, un misterioso demone alato che sembra nascondere segreti legati proprio alle origini del pianeta Terra e al motivo per cui il Regno Demoniaco fu separato da essa tanto tempo fa."
+            "Shrunk but not beaten, Goku, Vegeta, Bulma, Piccolo, Majin Buu and Uub set off for the Demon Realm itself to discover the truth and find a way back to normal, an ensemble adventure that brings together classic characters rarely seen working side by side in the same arc.",
+            "Traveling with them is Glorio, a mysterious winged demon who seems to hide secrets tied to the origins of planet Earth and to the reason the Demon Realm was separated from it so long ago."
         ]},
-        {heading:"Fazioni in guerra",
+        {heading:"Warring factions",
         paragraphs:[
-            "Il Regno Demoniaco si rivela un mondo diviso in fazioni rivali, popolato da creature bizzarre e inquietanti, dove Goku e compagni devono destreggiarsi tra alleanze fragili, tornei locali di potere e una guerra civile latente tra demoni, riscoprendo il gusto dell'avventura pura che caratterizzava la primissima serie del 1986.",
-            "Il ritorno a un formato più simile a un viaggio episodico, dopo anni di scontri cosmici su scala universale, segna volutamente un cambio di registro rispetto a Dragon Ball Super."
+            "The Demon Realm turns out to be a world divided into rival factions, populated by bizarre and unsettling creatures, where Goku and his companions must navigate fragile alliances, local power tournaments and a simmering civil war among demons, rediscovering the taste of pure adventure that defined the very first 1986 series.",
+            "The return to a format closer to an episodic journey, after years of cosmic battles on a universal scale, deliberately marks a change of tone from Dragon Ball Super."
         ]},
-        {heading:"L'ultima storia di Toriyama",
+        {heading:"Toriyama's last story",
         paragraphs:[
-            "Concepita e scritta personalmente da Akira Toriyama poco prima della sua scomparsa nel marzo 2024, questa saga è considerata l'ultima storia originale uscita direttamente dalla sua penna: un capitolo che chiude simbolicamente il cerchio, riportando la serie alle atmosfere avventurose e fiabesche delle sue origini.",
-            "Per i fan, Daima rappresenta un vero e proprio testamento creativo dell'autore, un ultimo viaggio scritto con la stessa cura e lo stesso spirito con cui tutto era iniziato quasi quarant'anni prima."
+            "Conceived and written personally by Akira Toriyama shortly before his death in March 2024, this saga is considered the last original story to come directly from his pen: a chapter that symbolically closes the circle, taking the series back to the adventurous, fairy-tale atmosphere of its origins.",
+            "For fans, Daima is a true creative testament from the author, one last journey written with the same care and the same spirit with which everything began almost forty years earlier."
         ]}
     ]
 }

@@ -24,7 +24,7 @@ function renderEraFilter(){
     eras.forEach(era=>{
         const btn=document.createElement("button");
         btn.className="era-btn"+(era==="all"?" active":"");
-        btn.textContent=era==="all"?"Tutte le ere":eraInfo[era].label;
+        btn.textContent=era==="all"?"All eras":eraInfo[era].label;
         btn.style.setProperty("--era-color", era==="all"?"#e8b84b":eraInfo[era].color);
         btn.addEventListener("click",()=>{
             activeEra=era;
@@ -70,7 +70,7 @@ function renderBooks(){
 
         const covEp=document.createElement("span");
         covEp.className="book-ep-tag";
-        covEp.textContent="📺 "+saga.total+" episodi";
+        covEp.textContent="📺 "+saga.total+" episodes";
         cover.appendChild(covEp);
 
         book.appendChild(cover);
@@ -167,11 +167,11 @@ function formaPiuForte(nome){
 }
 
 function formattaPotere(power){
-    return typeof power==="number" ? power.toLocaleString("it-IT") : power;
+    return typeof power==="number" ? power.toLocaleString("en-US") : power;
 }
 
 function powerPercent(power){
-    if(power==="illimitato") return 100;
+    if(power==="unlimited") return 100;
     const log=Math.log10(Math.max(power,1));
     const pct=(log-1)/(12-1)*100;
     return Math.min(100,Math.max(6,Math.round(pct)));
@@ -190,19 +190,19 @@ const characterVisuals={
         symbol:'<polygon points="26,70 26,55 34,38 42,55 50,32 58,55 66,38 74,55 74,70" fill="ACCENT"/>'
     },
     "Piccolo":{
-        tag:"NAMECCIANO", bg:"#072014", accent:"#4fd98c",
+        tag:"NAMEKIAN", bg:"#072014", accent:"#4fd98c",
         symbol:'<path d="M50,78 C34,72 26,56 30,40 C34,26 46,20 50,24 C54,20 66,26 70,40 C74,56 66,72 50,78 Z" fill="ACCENT"/>'
     },
     "Gohan":{
-        tag:"IBRIDO SAIYAN", bg:"#1a1408", accent:"#ffd24f",
+        tag:"SAIYAN HYBRID", bg:"#1a1408", accent:"#ffd24f",
         symbol:'<polygon points="50,34 22,26 22,64 50,74 78,64 78,26" fill="ACCENT"/>'
     },
-    "Freezer":{
-        tag:"MUTANTE", bg:"#05171c", accent:"#5fd6ff",
+    "Frieza":{
+        tag:"MUTANT", bg:"#05171c", accent:"#5fd6ff",
         symbol:'<polygon points="50,15 68,42 50,85 32,42" fill="ACCENT"/>'
     },
     "Cell":{
-        tag:"BIOANDROIDE", bg:"#191f08", accent:"#c7e84f",
+        tag:"BIO-ANDROID", bg:"#191f08", accent:"#c7e84f",
         symbol:'<polygon points="50,18 78,34 78,66 50,82 22,66 22,34" fill="ACCENT"/>'
     },
     "Majin Buu":{
@@ -210,27 +210,27 @@ const characterVisuals={
         symbol:'<path d="M50,22 C66,22 76,36 74,52 C72,70 60,80 46,78 C32,76 24,62 26,46 C28,30 38,22 50,22 Z" fill="ACCENT"/>'
     },
     "Trunks":{
-        tag:"IBRIDO SAIYAN", bg:"#0f1a24", accent:"#6fb8ff",
+        tag:"SAIYAN HYBRID", bg:"#0f1a24", accent:"#6fb8ff",
         symbol:'<path d="M50,14 L55,60 L50,68 L45,60 Z M34,62 L66,62 L66,68 L34,68 Z M45,68 L55,68 L55,84 L45,84 Z" fill="ACCENT"/>'
     },
     "Goten":{
-        tag:"IBRIDO SAIYAN", bg:"#241a08", accent:"#ffb84f",
+        tag:"SAIYAN HYBRID", bg:"#241a08", accent:"#ffb84f",
         symbol:'<polygon points="50,15 61,40 88,40 66,57 74,83 50,67 26,83 34,57 12,40 39,40" fill="ACCENT"/>'
     },
     "Bra":{
-        tag:"IBRIDO SAIYAN", bg:"#240f1c", accent:"#ffa8d6",
+        tag:"SAIYAN HYBRID", bg:"#240f1c", accent:"#ffa8d6",
         symbol:'<path d="M50,72 C20,50 20,25 40,25 C48,25 50,32 50,32 C50,32 52,25 60,25 C80,25 80,50 50,72 Z" fill="ACCENT"/>'
     },
     "Gogeta":{
-        tag:"FUSIONE", bg:"#241608", accent:"#ff4f4f",
+        tag:"FUSION", bg:"#241608", accent:"#ff4f4f",
         symbol:'<polygon points="50,10 58,42 90,50 58,58 50,90 42,58 10,50 42,42" fill="ACCENT"/>'
     },
     "Vegito":{
-        tag:"FUSIONE", bg:"#160f2e", accent:"#c8a8ff",
+        tag:"FUSION", bg:"#160f2e", accent:"#c8a8ff",
         symbol:'<path d="M50,22 C60,22 68,30 68,40 C68,50 60,58 50,58 C40,58 32,50 32,40 C32,30 40,22 50,22 Z M42,58 L58,58 L50,86 Z" fill="ACCENT"/>'
     },
     "Gotenks":{
-        tag:"FUSIONE", bg:"#08141f", accent:"#4fe0e0",
+        tag:"FUSION", bg:"#08141f", accent:"#4fe0e0",
         symbol:'<path d="M50,50 C50,30 66,26 66,42 C66,54 56,56 50,50 Z M50,50 C50,70 34,74 34,58 C34,46 44,44 50,50 Z" fill="ACCENT"/>'
     }
 };
@@ -260,17 +260,17 @@ if(characterGrid){
             '<h4>'+nome+'</h4>'+
             '<span class="character-role">'+ruolo+'</span>'+
             '<p class="character-bio">'+info.bio+'</p>'+
-            '<div class="db-field"><span>Debutto</span><b>'+info.debut+'</b></div>'+
-            '<div class="db-field"><span>Forma più potente</span><b>'+top.name+'</b></div>'+
+            '<div class="db-field"><span>Debut</span><b>'+info.debut+'</b></div>'+
+            '<div class="db-field"><span>Strongest form</span><b>'+top.name+'</b></div>'+
             '<div class="db-bar-label"><span>Power level (base)</span><b>'+formattaPotere(base.power)+'</b></div>'+
             '<div class="db-bar"><i style="--pct:'+powerPercent(base.power)+'%"></i></div>'+
-            '<div class="db-bar-label"><span>Picco rilevato</span><b>'+formattaPotere(top.power)+'</b></div>'+
+            '<div class="db-bar-label"><span>Peak reading</span><b>'+formattaPotere(top.power)+'</b></div>'+
             '<div class="db-bar"><i style="--pct:'+powerPercent(top.power)+'%"></i></div>';
 
         const activateBtn=document.createElement("button");
         activateBtn.type="button";
         activateBtn.className="character-activate";
-        activateBtn.textContent="📡 Attiva sullo Scouter";
+        activateBtn.textContent="📡 Activate on the Scouter";
         activateBtn.addEventListener("click",()=>{
             selezionaPersonaggio(nome);
             document.getElementById("scouter").scrollIntoView({behavior:"smooth"});
@@ -342,7 +342,7 @@ if(triviaPages){
         const dot=document.createElement("button");
         dot.type="button";
         dot.className="trivia-dot";
-        dot.setAttribute("aria-label","Vai alla pagina "+(i+1));
+        dot.setAttribute("aria-label","Go to page "+(i+1));
         dot.addEventListener("click",()=>vaiAllaPagina(i));
         dotsEl.appendChild(dot);
         return dot;
@@ -385,7 +385,7 @@ if(triviaPages){
 
         dotEls.forEach((dot,i)=>dot.classList.toggle("active",i===triviaIndex));
 
-        counterEl.textContent="Pagina "+(triviaIndex+1)+" di "+totalePagine;
+        counterEl.textContent="Page "+(triviaIndex+1)+" of "+totalePagine;
 
         prevBtn.disabled=triviaIndex===0;
         nextBtn.disabled=triviaIndex===totalePagine-1;
@@ -491,7 +491,7 @@ function resetScouter(){
 
 function formattaNumero(numero){
 
-    return numero.toLocaleString("it-IT");
+    return numero.toLocaleString("en-US");
 
 }
 
@@ -505,7 +505,7 @@ scanButton.addEventListener("click",()=>{
 
     scanButton.disabled=true;
 
-    if(selectedForm.power==="illimitato"){
+    if(selectedForm.power==="unlimited"){
 
         animaValoreIllimitato();
 
@@ -563,7 +563,7 @@ function rompiSchermo(){
 
     rompiSchermoIntero();
 
-    scouterWarning.textContent="💥 POTENZA TROPPO ELEVATA — SCHERMO IN FRANTUMI 💥";
+    scouterWarning.textContent="💥 POWER TOO HIGH — SCREEN SHATTERED 💥";
 
     scouterWarning.classList.remove("hidden");
 
@@ -621,13 +621,13 @@ function animaValoreIllimitato(){
 
         clearInterval(interval);
 
-        scouterValue.textContent="ERRORE";
+        scouterValue.textContent="ERROR";
 
         scouterScreen.classList.add("broken");
 
         rompiSchermoIntero();
 
-        scouterWarning.textContent="💥 SCOUTER FUORI SCALA — POTERE IMMISURABILE 💥";
+        scouterWarning.textContent="💥 SCOUTER OFF THE SCALE — IMMEASURABLE POWER 💥";
 
         scouterWarning.classList.remove("hidden");
 
@@ -641,7 +641,7 @@ function fineScansione(valore){
 
     if(valore>9000){
 
-        scouterWarning.textContent="⚠️ È OLTRE 9000!! ⚠️";
+        scouterWarning.textContent="⚠️ IT'S OVER 9000!! ⚠️";
 
         scouterWarning.classList.remove("hidden");
 
@@ -728,14 +728,14 @@ if(compareCharA && compareCharB){
     });
 
     function scalaBarraLog(potenza){
-        if(potenza==="illimitato") return 100;
+        if(potenza==="unlimited") return 100;
         if(potenza<=0) return 2;
         const scala=Math.log10(potenza+1)/Math.log10(1e12);
         return Math.max(4, Math.min(100, scala*100));
     }
 
     function animaValoreBarra(el, target, durata){
-        if(target==="illimitato"){
+        if(target==="unlimited"){
             el.textContent="∞";
             return;
         }
@@ -759,11 +759,11 @@ if(compareCharA && compareCharB){
         const formaB=charactersData[nomeB].forms[compareFormB.value];
 
         let esito;
-        if(formaA.power==="illimitato" && formaB.power==="illimitato"){
-            esito="pareggio-illimitato";
-        }else if(formaA.power==="illimitato"){
+        if(formaA.power==="unlimited" && formaB.power==="unlimited"){
+            esito="tie-unlimited";
+        }else if(formaA.power==="unlimited"){
             esito="A";
-        }else if(formaB.power==="illimitato"){
+        }else if(formaB.power==="unlimited"){
             esito="B";
         }else if(formaA.power===formaB.power){
             esito="pareggio";
@@ -776,22 +776,22 @@ if(compareCharA && compareCharB){
         const durataAnimazione=800;
 
         let messaggio;
-        if(esito==="pareggio-illimitato"){
-            messaggio="🤝 Entrambi possiedono un potere incommensurabile: nessuno scouter può stabilire un vincitore.";
+        if(esito==="tie-unlimited"){
+            messaggio="🤝 Both possess immeasurable power: no scouter can determine a winner.";
         }else if(esito==="pareggio"){
-            messaggio="🤝 Pareggio perfetto! I due power level sono identici.";
+            messaggio="🤝 A perfect tie! The two power levels are identical.";
         }else{
             const vincitore=esito==="A"?nomeA:nomeB;
             const vincitoreForma=esito==="A"?formaA:formaB;
             const perdenteForma=esito==="A"?formaB:formaA;
             let rapportoTxt="";
-            if(vincitoreForma.power!=="illimitato" && perdenteForma.power!=="illimitato" && perdenteForma.power>0){
+            if(vincitoreForma.power!=="unlimited" && perdenteForma.power!=="unlimited" && perdenteForma.power>0){
                 const rapporto=vincitoreForma.power/perdenteForma.power;
-                rapportoTxt=" (circa "+(rapporto>=10?Math.round(rapporto):rapporto.toFixed(1))+"× più forte)";
-            }else if(vincitoreForma.power==="illimitato"){
-                rapportoTxt=" (potere fuori scala)";
+                rapportoTxt=" (about "+(rapporto>=10?Math.round(rapporto):rapporto.toFixed(1))+"× stronger)";
+            }else if(vincitoreForma.power==="unlimited"){
+                rapportoTxt=" (off-the-scale power)";
             }
-            messaggio="🏆 <b>"+vincitore+"</b> vince lo scontro"+rapportoTxt+"!";
+            messaggio="🏆 <b>"+vincitore+"</b> wins the fight"+rapportoTxt+"!";
         }
 
         compareIconA.textContent=charactersData[nomeA].icon;

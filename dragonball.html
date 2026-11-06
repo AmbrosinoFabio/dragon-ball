@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 
 <head>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dragon Ball | Saghe &amp; Scouter</title>
+    <title>Dragon Ball | Sagas &amp; Scouter</title>
 
-    <meta name="description" content="Sito fan-made non ufficiale su Dragon Ball: la biblioteca completa delle saghe (dal 1986 a Dragon Ball Daima, con episodi ufficiali e filler) e uno Scouter interattivo per calcolare il power level dei tuoi guerrieri preferiti.">
+    <meta name="description" content="Unofficial fan-made Dragon Ball website: the complete saga library (from 1986 to Dragon Ball Daima, with official and filler episodes) and an interactive Scouter to calculate the power level of your favorite warriors.">
     <meta name="theme-color" content="#ff6b00">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Dragon Ball | Biblioteca delle Saghe &amp; Scouter">
-    <meta property="og:description" content="Esplora la storia completa di Dragon Ball saga per saga e rileva il power level dei guerrieri Z con lo Scouter interattivo. Fan site non ufficiale.">
-    <meta property="og:locale" content="it_IT">
+    <meta property="og:title" content="Dragon Ball | Saga Library &amp; Scouter">
+    <meta property="og:description" content="Explore the complete story of Dragon Ball saga by saga and scan the power level of the Z Fighters with the interactive Scouter. Unofficial fan site.">
+    <meta property="og:locale" content="en_US">
 
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23ff8c1a'/%3E%3Ccircle cx='32' cy='32' r='30' fill='none'/%3E%3Cg fill='%23e21b12'%3E%3Cpath d='M32 16l2.6 8h8.4l-6.8 5 2.6 8-6.8-5-6.8 5 2.6-8-6.8-5h8.4z'/%3E%3C/g%3E%3C/svg%3E">
 
@@ -210,9 +210,9 @@
 
     <!-- ================= NAVBAR ================= -->
 
-    <a class="skip-link" href="#main-content">Vai al contenuto principale</a>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <nav aria-label="Navigazione principale">
+    <nav aria-label="Main navigation">
 
         <div class="logo">
 
@@ -224,11 +224,11 @@
 
             <li><a href="#home">Home</a></li>
 
-            <li><a href="#saghe">Saghe</a></li>
+            <li><a href="#saghe">Sagas</a></li>
 
-            <li><a href="#personaggi">Personaggi</a></li>
+            <li><a href="#personaggi">Characters</a></li>
 
-            <li><a href="#curiosita">Curiosità</a></li>
+            <li><a href="#curiosita">Trivia</a></li>
 
             <li><a href="#scouter">Scouter</a></li>
 
@@ -246,19 +246,19 @@
 
             <h1>
 
-                Il Potere del Ki
+                The Power of Ki
 
             </h1>
 
             <p>
 
-                Esplora le saghe di Dragon Ball e rileva il power level dei tuoi guerrieri preferiti.
+                Explore the Dragon Ball sagas and scan the power level of your favorite warriors.
 
             </p>
 
             <a href="#scouter" class="cta-btn">
 
-                📡 Attiva lo Scouter
+                📡 Activate the Scouter
 
             </a>
 
@@ -270,9 +270,9 @@
 
     <section id="saghe">
 
-        <h2>La Biblioteca delle Saghe</h2>
+        <h2>The Saga Library</h2>
 
-        <p class="section-sub">Apri un libricino e rivivi la storia completa di ogni saga, dal 1986 a oggi — con episodi ufficiali e filler</p>
+        <p class="section-sub">Open a booklet and relive the complete story of each saga, from 1986 to today, with official and filler episodes</p>
 
         <div class="era-filter" id="eraFilter"></div>
 
@@ -284,9 +284,9 @@
 
     <section id="personaggi">
 
-        <h2>Personaggi</h2>
+        <h2>Characters</h2>
 
-        <p class="section-sub">Il cast di guerrieri, alleati, nemici e fusioni pronti per lo Scouter</p>
+        <p class="section-sub">The cast of warriors, allies, enemies and fusions ready for the Scouter</p>
 
         <div class="character-grid" id="characterGrid"></div>
 
@@ -296,13 +296,13 @@
 
     <section id="curiosita">
 
-        <h2>Curiosità</h2>
+        <h2>Trivia</h2>
 
-        <p class="section-sub">Piccoli fatti veri sulla nascita e la produzione di Dragon Ball — sfoglia le pagine</p>
+        <p class="section-sub">Small true facts about the birth and production of Dragon Ball: flip through the pages</p>
 
         <div class="trivia-book" id="triviaBook">
 
-            <button type="button" class="trivia-nav trivia-prev" id="triviaPrev" aria-label="Pagina precedente">‹</button>
+            <button type="button" class="trivia-nav trivia-prev" id="triviaPrev" aria-label="Previous page">‹</button>
 
             <div class="trivia-book-frame">
 
@@ -310,7 +310,7 @@
 
             </div>
 
-            <button type="button" class="trivia-nav trivia-next" id="triviaNext" aria-label="Pagina successiva">›</button>
+            <button type="button" class="trivia-nav trivia-next" id="triviaNext" aria-label="Next page">›</button>
 
         </div>
 
@@ -330,27 +330,27 @@
 
         <h2>Scouter</h2>
 
-        <p class="section-sub">Seleziona un guerriero e una forma per rilevarne il power level</p>
+        <p class="section-sub">Select a warrior and a form to scan their power level</p>
 
         <div class="scouter-panel">
 
             <div class="scouter-selectors">
 
-                <h4>1. Scegli il guerriero</h4>
+                <h4>1. Choose the warrior</h4>
 
                 <div class="char-select" id="charSelect"></div>
 
-                <h4>2. Scegli la forma</h4>
+                <h4>2. Choose the form</h4>
 
                 <div class="form-select" id="formSelect">
 
-                    <p class="form-placeholder">Seleziona prima un guerriero</p>
+                    <p class="form-placeholder">Select a warrior first</p>
 
                 </div>
 
                 <button id="scanButton" disabled>
 
-                    🔍 Rileva Power Level
+                    🔍 Scan Power Level
 
                 </button>
 
@@ -366,7 +366,7 @@
 
                     <p class="scouter-warning hidden" id="scouterWarning">
 
-                        ⚠️ È OLTRE 9000!! ⚠️
+                        ⚠️ IT'S OVER 9000!! ⚠️
 
                     </p>
 
@@ -522,9 +522,9 @@
 
         <div class="compare-panel">
 
-            <h3>⚔️ Confronta Guerrieri</h3>
+            <h3>⚔️ Compare Warriors</h3>
 
-            <p class="section-sub compare-sub">Scegli due combattenti e due forme per scoprire chi vincerebbe</p>
+            <p class="section-sub compare-sub">Choose two fighters and two forms to find out who would win</p>
 
             <div class="compare-grid">
 
@@ -532,11 +532,11 @@
 
                     <div class="compare-avatar" id="compareAvatarA"></div>
 
-                    <span class="compare-label">Guerriero A</span>
+                    <span class="compare-label">Warrior A</span>
 
-                    <select id="compareCharA" aria-label="Scegli il primo guerriero"></select>
+                    <select id="compareCharA" aria-label="Choose the first warrior"></select>
 
-                    <select id="compareFormA" aria-label="Scegli la forma del primo guerriero"></select>
+                    <select id="compareFormA" aria-label="Choose the first warrior's form"></select>
 
                 </div>
 
@@ -546,17 +546,17 @@
 
                     <div class="compare-avatar" id="compareAvatarB"></div>
 
-                    <span class="compare-label">Guerriero B</span>
+                    <span class="compare-label">Warrior B</span>
 
-                    <select id="compareCharB" aria-label="Scegli il secondo guerriero"></select>
+                    <select id="compareCharB" aria-label="Choose the second warrior"></select>
 
-                    <select id="compareFormB" aria-label="Scegli la forma del secondo guerriero"></select>
+                    <select id="compareFormB" aria-label="Choose the second warrior's form"></select>
 
                 </div>
 
             </div>
 
-            <button id="compareButton" type="button">⚡ Confronta</button>
+            <button id="compareButton" type="button">⚡ Compare</button>
 
             <div class="compare-result" id="compareResult" aria-live="polite">
 
@@ -618,19 +618,19 @@
 
                     <a class="footer-brand" href="#home">🐲 Dragon Ball</a>
 
-                    <p class="footer-tagline">Biblioteca delle saghe, personaggi e Scouter interattivo — un progetto fan-made, non ufficiale.</p>
+                    <p class="footer-tagline">Saga library, characters and interactive Scouter: an unofficial fan-made project.</p>
 
                 </div>
 
-                <nav class="footer-nav" aria-label="Link rapidi">
+                <nav class="footer-nav" aria-label="Quick links">
 
                     <a href="#home">Home</a>
 
-                    <a href="#saghe">Saghe</a>
+                    <a href="#saghe">Sagas</a>
 
-                    <a href="#personaggi">Personaggi</a>
+                    <a href="#personaggi">Characters</a>
 
-                    <a href="#curiosita">Curiosità</a>
+                    <a href="#curiosita">Trivia</a>
 
                     <a href="#scouter">Scouter</a>
 
@@ -646,19 +646,19 @@
 
                     <p>
 
-                        Dragon Ball è un'opera di Akira Toriyama © Bird Studio / Shueisha, Toei Animation. Questo è un sito fan-made non ufficiale, realizzato a scopo didattico.
+                        Dragon Ball is a work by Akira Toriyama © Bird Studio / Shueisha, Toei Animation. This is an unofficial fan-made website, created for educational purposes.
 
                     </p>
 
                     <p>
 
-                        I power level mostrati dallo Scouter sono reinterpretati in chiave ludica e non rappresentano dati canonici ufficiali. Le ambientazioni del sito (sfondi, Shenron, le scenografie delle saghe) sono illustrazioni originali ispirate all'atmosfera della serie, non riproduzioni di scene ufficiali.
+                        The power levels shown by the Scouter are playful reinterpretations and do not represent official canon data. The site's settings (backgrounds, Shenron, the saga scenery) are original illustrations inspired by the atmosphere of the series, not reproductions of official scenes.
 
                     </p>
 
                 </div>
 
-                <a class="footer-top-link" href="#home">↑ Torna in cima</a>
+                <a class="footer-top-link" href="#home">↑ Back to top</a>
 
             </div>
 

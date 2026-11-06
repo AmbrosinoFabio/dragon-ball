@@ -33,7 +33,7 @@ if(!saga){
 
     document.getElementById("pageTitleTag").textContent=saga.title+" | Dragon Ball";
     document.getElementById("pageDescriptionTag").setAttribute("content",
-        saga.title+" ("+info.label+", episodi "+saga.range+"): "+saga.subtitle+". Storia completa della saga su Dragon Ball, il sito fan-made con la biblioteca di tutte le saghe.");
+        saga.title+" ("+info.label+", episodes "+saga.range+"): "+saga.subtitle+". The complete story of the saga on Dragon Ball, the fan-made website with a library of all the sagas.");
 
     const sagaHero=document.getElementById("sagaHero");
     sagaHero.style.setProperty("--saga-color", info.color);
@@ -49,7 +49,7 @@ if(!saga){
 
     const statEp=document.createElement("span");
     statEp.className="stat-chip";
-    statEp.innerHTML="📺 Episodi "+saga.range+" <b>("+saga.total+" totali)</b>";
+    statEp.innerHTML="📺 Episodes "+saga.range+" <b>("+saga.total+" total)</b>";
     statsEl.appendChild(statEp);
 
     const statFiller=document.createElement("span");
@@ -97,13 +97,13 @@ if(!saga){
     const prevLink=document.createElement("a");
     prevLink.className="saga-pager-link saga-pager-prev";
     prevLink.href="saga.html?id="+encodeURIComponent(precedente.id);
-    prevLink.innerHTML="<span>← Saga precedente</span><b>"+precedente.title+"</b>";
+    prevLink.innerHTML="<span>← Previous saga</span><b>"+precedente.title+"</b>";
     pagerEl.appendChild(prevLink);
 
     const nextLink=document.createElement("a");
     nextLink.className="saga-pager-link saga-pager-next";
     nextLink.href="saga.html?id="+encodeURIComponent(successiva.id);
-    nextLink.innerHTML="<span>Saga successiva →</span><b>"+successiva.title+"</b>";
+    nextLink.innerHTML="<span>Next saga →</span><b>"+successiva.title+"</b>";
     pagerEl.appendChild(nextLink);
 
     window.scrollTo(0,0);
